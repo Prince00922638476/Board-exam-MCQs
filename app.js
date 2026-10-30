@@ -210,9 +210,9 @@
     if (!session) return;
     const now=Date.now(),activeId=session.items[session.cursor].id;
     session.seconds[activeId]=(session.seconds[activeId]||0)+Math.max(0,Math.round((now-session.questionStartedAt)/1000));
+    session.questionStartedAt=now;
     if(next>=session.items.length){finishQuiz(false);return;}
     session.cursor=Math.max(0,Math.min(session.items.length-1,next));
-    session.questionStartedAt=now;
     renderQuiz();
   }
   async function finishQuiz(auto=false) {
