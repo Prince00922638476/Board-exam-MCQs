@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   const DB_NAME = "boardmcq-local";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   const SUBJECTS = [
     {name:"विज्ञान",icon:"⚗",key:"science"},
     {name:"गणित",icon:"∑",key:"math"},
@@ -17,7 +17,7 @@
   const root = document.getElementById("appRoot");
   const modalRoot = document.getElementById("modalRoot");
   const toastEl = document.getElementById("toast");
-  let db, bank = [], history = [], view = "home", selectedMode = "mixed", session = null, tick = null, toastTimer = null, deferredInstall = null;
+  let db, bank = [], history = [], documents = [], view = "home", selectedMode = "mixed", session = null, tick = null, toastTimer = null, deferredInstall = null;
 
   const $ = (selector, parent=document) => parent.querySelector(selector);
   const $$ = (selector, parent=document) => [...parent.querySelectorAll(selector)];
@@ -37,6 +37,7 @@
         const d = request.result;
         if (!d.objectStoreNames.contains("questions")) d.createObjectStore("questions",{keyPath:"id"});
         if (!d.objectStoreNames.contains("results")) d.createObjectStore("results",{keyPath:"id"});
+        if (!d.objectStoreNames.contains("documents")) d.createObjectStore("documents",{keyPath:"id"});
       };
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error);
@@ -59,6 +60,8 @@
   async function refreshData() {
     bank = await storeAction("questions","getAll");
     history = await storeAction("results","getAll");
+    documents = await storeAction("documents","getAll");
+    documents.sort((a,b)=>b.addedAt-a.addedAt);
     history.sort((a,b) => b.createdAt-a.createdAt);
   }
   function questionCounts() {
@@ -107,14 +110,17 @@
     ${history.length?`<div class="review-list">${history.map(h=>`<article class="review-item"><div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><strong>${esc(h.modeLabel)}</strong><strong class="answer-${h.correct>=h.wrong?"good":"bad"}">${h.correct}/${h.total} सही</strong></div><p>${esc(h.subjectLabel||"मिश्रित अभ्यास")} · ${new Date(h.createdAt).toLocaleString("hi-IN")} · ${formatTime(h.elapsed)} · ${h.percent}% अंक</p><button class="btn btn-outline btn-small" data-result-id="${esc(h.id)}">विस्तार देखें</button></article>`).join("")}</div>`:`<div class="panel empty-state"><div class="empty-icon">▤</div><h3>अभी कोई परिणाम नहीं है</h3><p>पहला अभ्यास पूरा करने के बाद आपका परिणाम यहाँ दिखेगा।</p><button class="btn btn-primary btn-small" data-action="open-setup">अभ्यास शुरू करें</button></div>`}`;
   }
   function renderData() {
-    const counts = questionCounts();
-    root.innerHTML = `<div class="page-head"><div><span class="eyebrow">प्रश्न प्रबंधन</span><h1>प्रश्न बैंक</h1><p>अपने स्रोत से तैयार किए गए प्रश्न JSON फ़ाइल के रूप में जोड़ें।</p></div></div>
-      <div class="data-summary"><div class="data-stat"><strong>${bank.length}</strong><span>कुल प्रश्न</span></div><div class="data-stat"><strong>${Object.keys(counts).length}</strong><span>विषय</span></div><div class="data-stat"><strong>${history.length}</strong><span>अभ्यास परिणाम</span></div></div>
-      <section class="panel"><h3 style="font-size:14px;margin:0 0 5px">प्रश्न जोड़ें या सुरक्षित रखें</h3><p class="muted" style="font-size:11px;line-height:1.8;margin:0">JSON फ़ाइल आयात करने पर प्रश्न आपके इस डिवाइस के स्थानीय प्रश्न बैंक में जुड़ेंगे। समान पहचान वाले प्रश्न अपडेट होंगे।</p>
-      <div class="data-actions"><button class="btn btn-primary btn-small" data-action="import">JSON प्रश्न जोड़ें</button><button class="btn btn-outline btn-small" data-action="export-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक निर्यात करें</button><button class="btn btn-outline btn-small" data-action="export-results" ${history.length?"":"disabled"}>परिणाम निर्यात करें</button><button class="btn btn-danger btn-small" data-action="clear-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक मिटाएँ</button></div>
-      <div class="notice"><strong>महत्वपूर्ण:</strong> अभी कोई प्रश्न पहले से भरा हुआ नहीं है। अपने दिए हुए पाठ्यक्रम/PDF से जाँचे गए प्रश्न जोड़ें। बोर्ड के पुराने प्रश्नपत्र के रूप में कोई प्रश्न बिना स्रोत के चिह्नित नहीं किया जाएगा।</div>
-      <div class="notice">यह संस्करण बिना इंटरनेट भी चल सकता है। प्रश्न बैंक और परिणाम इसी ब्राउज़र/डिवाइस में रहते हैं; दूसरे डिवाइस से अपने-आप साझा नहीं होते। ऑनलाइन साझा डेटाबेस अभी कॉन्फ़िगर नहीं है।</div>
-      <div class="data-actions"><a class="btn btn-outline btn-small" href="./question-format.json" download>JSON नमूना प्रारूप</a><a class="btn btn-outline btn-small" href="./README.md" target="_blank" rel="noopener">निर्देश देखें</a></div></section>`;
+    const counts=questionCounts();
+    const rows=documents.map(d=>`<article class="review-item"><strong>${esc(d.name)}</strong><p>${esc(d.type||"फ़ाइल")} · ${(d.size/1024).toFixed(1)} KB · ${new Date(d.addedAt).toLocaleString("hi-IN")}</p><div class="data-actions">${/^(application\/pdf|image\/|text\/|application\/json)/i.test(d.type||"")?`<button class="btn btn-outline btn-small" data-doc-open="${esc(d.id)}">फ़ाइल देखें</button>`:""}<button class="btn btn-outline btn-small" data-doc-download="${esc(d.id)}">डाउनलोड</button><button class="btn btn-danger btn-small" data-doc-delete="${esc(d.id)}">हटाएँ</button></div></article>`).join("");
+    root.innerHTML=`<div class="page-head"><div><span class="eyebrow">प्रश्न प्रबंधन</span><h1>प्रश्न बैंक और फ़ाइलें</h1><p>प्रश्न जोड़ें, निर्यात करें और PDF सहित फ़ाइलें सुरक्षित रखें।</p></div></div>
+    <div class="data-summary"><div class="data-stat"><strong>${bank.length}</strong><span>कुल प्रश्न</span></div><div class="data-stat"><strong>${Object.keys(counts).length}</strong><span>विषय</span></div><div class="data-stat"><strong>${documents.length}</strong><span>फ़ाइलें</span></div></div>
+    <section class="panel"><h3 style="font-size:14px;margin:0 0 5px">प्रश्न बैंक</h3><p class="muted">JSON प्रश्न जोड़ें या अपने प्रश्न और परिणाम डाउनलोड करें।</p>
+    <div class="data-actions"><button class="btn btn-primary btn-small" data-action="import">JSON प्रश्न जोड़ें</button><button class="btn btn-outline btn-small" data-action="export-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक निर्यात करें</button><button class="btn btn-outline btn-small" data-action="export-results" ${history.length?"":"disabled"}>परिणाम निर्यात करें</button><button class="btn btn-danger btn-small" data-action="clear-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक मिटाएँ</button></div>
+    <div class="notice">${bank.length?bank.length+" प्रश्न इसी ब्राउज़र में सुरक्षित हैं।":"प्रश्न बैंक अभी खाली है।"} ${history.length?history.length+" परिणाम सुरक्षित हैं।":""}</div>
+    <div class="notice">फ़ाइलें अभी इसी डिवाइस में सेव होती हैं। दूसरे लोगों को दिखाने के लिए साझा ऑनलाइन संग्रह जोड़ना बाकी है।</div></section>
+    <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">अपनी फ़ाइलें अपलोड करें</h3><p class="muted">PDF, चित्र और अन्य फ़ाइलें चुनें। अपलोड के बाद वे नीचे सूची में दिखेंगी।</p><input id="fileUploadInput" type="file" multiple hidden><div class="data-actions"><button class="btn btn-primary btn-small" data-action="upload-files">फ़ाइलें अपलोड करें</button></div><div class="review-list">${rows||'<p class="muted">अभी कोई फ़ाइल अपलोड नहीं हुई है।</p>'}</div></section>
+    <div class="data-actions"><a class="btn btn-outline btn-small" href="./question-format.json" download>JSON नमूना प्रारूप</a><a class="btn btn-outline btn-small" href="./README.md" target="_blank" rel="noopener">निर्देश देखें</a></div>`;
+    $("#fileUploadInput").addEventListener("change",async e=>{const fs=[...e.target.files];try{for(const f of fs){const id="file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+Math.random());await storeAction("documents","put",{id,name:f.name,type:f.type,size:f.size,addedAt:Date.now(),blob:f});}await refreshData();renderData();notify(fs.length+" फ़ाइलें सेव हो गईं।");}catch(err){notify("फ़ाइल सेव नहीं हुई: "+(err.message||"स्टोरेज की जगह जाँचें।"));}});
   }
   function setView(next) {
     view=next; navActive();
@@ -244,8 +250,16 @@
     await refreshData();notify(normalized.length+" प्रश्न सफलतापूर्वक जोड़े गए।");setView("home");
   }
   function downloadFile(name,content,type="application/json") {
-    const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement("a");
-    a.href=url;a.download=name;document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url);
+    try { const blob=content instanceof Blob?content:new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement("a");
+      a.href=url;a.download=name;document.body.append(a);a.click();a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),60000);notify("डाउनलोड शुरू हो गया है।");
+    } catch(err){notify("डाउनलोड नहीं हो सका: "+(err.message||"फिर प्रयास करें।"));}
+  }
+  function openSavedFile(id,download=false){
+    const f=documents.find(x=>x.id===id);if(!f){notify("फ़ाइल नहीं मिली।");return;}
+    if(download){downloadFile(f.name,f.blob,f.type||"application/octet-stream");return;}
+    const url=URL.createObjectURL(f.blob),w=window.open(url,"_blank");if(w)w.opener=null;else downloadFile(f.name,f.blob,f.type||"application/octet-stream");
+    setTimeout(()=>URL.revokeObjectURL(url),60000);
   }
   function openImport() {
     modalRoot.innerHTML=`<div class="modal-backdrop" data-close-modal><section class="modal" role="dialog" aria-modal="true"><div class="modal-head"><h2>प्रश्न बैंक आयात करें</h2><button class="icon-btn" data-action="close-modal">×</button></div><div class="field"><label for="jsonFile">JSON फ़ाइल चुनें</label><input id="jsonFile" type="file" accept=".json,application/json"><span class="field-help">फ़ाइल में questions की सूची होनी चाहिए। हर प्रश्न में subject, chapter, question, चार options और answer आवश्यक हैं।</span></div><div class="notice">आयात से पहले सभी प्रश्नों की जाँच की जाएगी। गलत प्रारूप वाली फ़ाइल से प्रश्न नहीं जोड़े जाएँगे।</div><div id="importError" class="field-help" style="color:var(--red);margin-top:10px"></div><div class="modal-actions"><button class="btn btn-secondary" data-action="close-modal">रद्द करें</button><button class="btn btn-primary" data-action="confirm-import">आयात करें</button></div></section></div>`;
@@ -267,6 +281,9 @@
     if(jump&&session){moveQuestion(Number(jump.dataset.jump));return;}
     const res=e.target.closest("[data-result-id]");
     if(res){showResult(res.dataset.resultId);return;}
+    const fOpen=e.target.closest("[data-doc-open]");if(fOpen){openSavedFile(fOpen.dataset.docOpen);return;}
+    const fDown=e.target.closest("[data-doc-download]");if(fDown){openSavedFile(fDown.dataset.docDownload,true);return;}
+    const fDel=e.target.closest("[data-doc-delete]");if(fDel){if(confirm("क्या यह फ़ाइल हटानी है?")){await storeAction("documents","delete",fDel.dataset.docDelete);await refreshData();renderData();notify("फ़ाइल हटा दी गई।");}return;}
     const b=e.target.closest("[data-action]");if(!b)return;
     switch(b.dataset.action){
       case "open-setup":openSetup();break;
@@ -279,6 +296,7 @@
         startQuiz(mode,subject,chapter,count,duration);break;
       }
       case "import":openImport();break;
+      case "upload-files":$("#fileUploadInput")?.click();break;
       case "confirm-import":{
         const file=$("#jsonFile")?.files?.[0];if(!file){$("#importError").textContent="पहले JSON फ़ाइल चुनें।";break;}
         try{await importJSON(file);modalRoot.innerHTML="";}catch(err){$("#importError").textContent=err.message;};break;
