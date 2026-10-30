@@ -18,7 +18,7 @@
   const root = document.getElementById("appRoot");
   const modalRoot = document.getElementById("modalRoot");
   const toastEl = document.getElementById("toast");
-  let db, bank = [], history = [], documents = [], view = "home", selectedMode = "mixed", session = null, tick = null, autoAdvanceTimer = null, toastTimer = null, deferredInstall = null;
+  let db, bank = [], history = [], documents = [], view = "home", selectedMode = "mixed", session = null, tick = null, autoAdvanceTimer = null, toastTimer = null, deferredInstall = null, latestAnalysis = null, bankBrowserQuery = "";
 
   const $ = (selector, parent=document) => parent.querySelector(selector);
   const $$ = (selector, parent=document) => [...parent.querySelectorAll(selector)];
@@ -134,7 +134,8 @@
     <div class="notice">${bank.length?bank.length.toLocaleString("hi-IN")+" प्रश्न इस ब्राउज़र में उपलब्ध हैं।":"प्रश्न बैंक अभी खाली है।"} ${history.length?history.length+" परिणाम सुरक्षित हैं।":""}</div>
     <div class="notice">मूल 1,488 प्रश्न छह PDF से तैयार अभ्यास सामग्री हैं, सत्यापित आधिकारिक PYQ नहीं। यह मूल प्रश्न बैंक वेबसाइट से सभी आगंतुकों को मिलता है।</div>
     <div class="notice">आपके अपने आयात किए गए प्रश्न, परिणाम और अपलोड की गई फ़ाइलें अभी इसी डिवाइस/ब्राउज़र में सेव होती हैं। दूसरे लोगों के साथ साझा करने के लिए सुरक्षित ऑनलाइन लॉगिन और संग्रहण अभी जोड़ा जाना बाकी है।</div></section>
-    <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">अपनी फ़ाइलें अपलोड करें</h3><p class="muted">PDF, चित्र और अन्य फ़ाइलें चुनें। अपलोड के बाद वे नीचे सूची में दिखेंगी।</p><input id="fileUploadInput" type="file" multiple hidden><div class="data-actions"><button class="btn btn-primary btn-small" data-action="upload-files">फ़ाइलें अपलोड करें</button></div><div class="review-list">${rows||'<p class="muted">अभी कोई फ़ाइल अपलोड नहीं हुई है।</p>'}</div></section>
+    <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">प्रश्न गुणवत्ता विश्लेषक</h3><p class="muted">दोहराए प्रश्न, “PDF के अनुसार” जैसे अधूरे वाक्य, दोहराए विकल्प और बिना व्याख्या वाले प्रश्न जाँचें। रिपोर्ट डाउनलोड करके साझा करें।</p><div class="data-actions"><button class="btn btn-primary btn-small" data-action="analyze-bank">प्रश्नों की जाँच करें</button><button class="btn btn-outline btn-small" data-action="export-analysis">विश्लेषण रिपोर्ट डाउनलोड करें</button></div><div id="qualitySummary" class="notice">अभी जाँच नहीं हुई है।</div></section>
+    <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">PDF / JSON से प्रश्न जोड़ें</h3><p class="muted">JSON के MCQ सीधे अभ्यास में खुलेंगे। PDF में चार विकल्प और उत्तर-कुंजी पढ़े जाने पर प्रश्न अपने-आप अभ्यास में खुलेंगे।</p><input id="fileUploadInput" type="file" accept=".pdf,.json,application/pdf,application/json" multiple hidden><div class="data-actions"><button class="btn btn-primary btn-small" data-action="upload-files">PDF / JSON अपलोड करें</button></div><div class="review-list">${rows||'<p class="muted">अभी कोई फ़ाइल अपलोड नहीं हुई है।</p>'}</div></section>
     <div class="data-actions"><a class="btn btn-outline btn-small" href="./question-format.json" download>JSON नमूना प्रारूप</a><a class="btn btn-outline btn-small" href="./README.md" target="_blank" rel="noopener">निर्देश देखें</a></div>`;
     $("#fileUploadInput").addEventListener("change",async e=>{
       const fs=[...e.target.files];
@@ -347,7 +348,97 @@
     await storeAction("questions","bulkPut",normalized);
     await refreshData();return normalized;
   }
-  function downloadFile(name,content,type="application/json") {
+async function handleFileUploads(files) {
+    try {
+      const saved=files.map((file,index)=>({id:"file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+index+"-"+Math.random()),name:file.name,type:file.type||(/\.pdf$/i.test(file.name)?"application/pdf":"application/json"),size:file.size,addedAt:Date.now()+index,blob:file}));
+      await storeAction("documents","bulkPut",saved);
+      const imported=[],notes=[];
+      for(const file of files){
+        if(/\.json$/i.test(file.name)||file.type==="application/json"){
+          const parsed=await importJSON(file);
+          imported.push(...parsed);
+        } else if(/\.pdf$/i.test(file.name)||file.type==="application/pdf"){
+          if(!window.BoardMCQImporter)throw new Error("PDF प्रश्न पढ़ने वाला भाग लोड नहीं हुआ। पेज फिर खोलें।");
+          const parsed=await window.BoardMCQImporter.extract(file);
+          parsed.questions.forEach((question,index)=>imported.push(normalizeQuestion(question,index)));
+          if(!parsed.questions.length)notes.push(file.name+": "+parsed.detectedBlocks+" प्रश्न-जैसे खंड मिले, लेकिन चार विकल्प और उत्तर-कुंजी दोनों की पुष्टि नहीं हुई।");
+        }
+      }
+      if(imported.length){
+        const seen=new Set();
+        for(const question of imported){
+          if(seen.has(question.id))question.id=question.id+"-"+simpleHash(question.question);
+          seen.add(question.id);
+        }
+        await storeAction("questions","bulkPut",imported);
+        await refreshData();
+        notify(imported.length+" MCQ मिले। अभ्यास शुरू हो रहा है।");
+        startQuiz("imported","अपलोड की गई फ़ाइल","",0,Math.max(1800,imported.length*60),imported);
+      } else {
+        await refreshData();
+        renderData();
+        notify(notes.join(" | ")||"फ़ाइलें सुरक्षित हुईं, लेकिन उत्तर सहित कोई MCQ नहीं मिला।");
+      }
+    } catch(error) {
+      await refreshData();
+      renderData();
+      notify("फ़ाइल पढ़ने में समस्या: "+(error.message||"फ़ाइल का प्रारूप जाँचें।"));
+    }
+  }
+
+  function buildBankAnalysis() {
+    const issues=[];
+    const counts={duplicate:0,pdfWording:0,repeatedOptions:0,shortQuestion:0,noExplanation:0,noSource:0};
+    const seen=new Map();
+    for(const question of bank){
+      const clean=String(question.question||"").toLocaleLowerCase("hi").replace(/\s+/g," ").trim();
+      if(seen.has(clean)){
+        counts.duplicate++;
+        issues.push({type:"duplicate",severity:"high",id:question.id,duplicateOf:seen.get(clean),subject:question.subject,chapter:question.chapter,question:question.question,suggestion:"दोनों प्रश्न मिलाएँ; एक ही प्रश्न दो बार हो तो एक हटाएँ।"});
+      } else seen.set(clean,question.id);
+      if(/pdf के अनुसार|पीडीएफ के अनुसार|pdf में|according to the pdf/i.test(question.question||"")){
+        counts.pdfWording++;
+        issues.push({type:"pdfWording",severity:"high",id:question.id,subject:question.subject,chapter:question.chapter,question:question.question,suggestion:"PDF का उल्लेख हटाकर विषय की वास्तविक अवधारणा पर प्रश्न लिखें।"});
+      }
+      const options=new Set((question.options||[]).map(option=>String(option).toLocaleLowerCase("hi").replace(/\s+/g," ").trim()));
+      if(options.size!==4){
+        counts.repeatedOptions++;
+        issues.push({type:"repeatedOptions",severity:"high",id:question.id,question:question.question,options:question.options,suggestion:"चारों विकल्प अलग और प्रश्न से संबंधित करें।"});
+      }
+      if(String(question.question||"").trim().length<12){
+        counts.shortQuestion++;
+        issues.push({type:"shortQuestion",severity:"medium",id:question.id,question:question.question,suggestion:"प्रश्न को पूरा और स्पष्ट लिखें।"});
+      }
+      if(!question.explanation){
+        counts.noExplanation++;
+        issues.push({type:"noExplanation",severity:"low",id:question.id,subject:question.subject,chapter:question.chapter,question:question.question,suggestion:"सही उत्तर का कारण 1–2 पंक्तियों में जोड़ें।"});
+      }
+      if(!question.source){
+        counts.noSource++;
+        issues.push({type:"noSource",severity:"low",id:question.id,subject:question.subject,chapter:question.chapter,question:question.question,suggestion:"पुस्तक, अध्याय या स्रोत का नाम जोड़ें।"});
+      }
+    }
+    return {reportType:"BoardMCQ Question Quality Analysis",version:1,generatedAt:new Date().toISOString(),totalQuestions:bank.length,subjectCounts:questionCounts(),counts,issues,importantNote:"यह नियम-आधारित जाँच है। यह सही उत्तर, तथ्य या पाठ्यक्रम से मेल की शैक्षणिक पुष्टि नहीं करती; high/medium संकेतों को मूल स्रोत से जाँचना आवश्यक है।"};
+  }
+
+  function renderBankBrowser(query) {
+    bankBrowserQuery=query===undefined?bankBrowserQuery:String(query);
+    view="bank";
+    navActive();
+    const q=bankBrowserQuery.trim().toLocaleLowerCase("hi");
+    const filtered=bank.filter(item=>!q||[item.question,item.subject,item.chapter].join(" ").toLocaleLowerCase("hi").includes(q)).slice(0,200);
+    root.innerHTML=(session?'<div class="quiz-top"><div class="quiz-title"><strong>परीक्षा जारी है</strong><span>प्रश्न बैंक देखते समय समय चलता रहेगा</span></div><div class="timer-pill" id="quizTimer">'+formatTime(session.remaining)+'</div></div>':'')+
+      '<div class="page-head"><div><span class="eyebrow">प्रश्न बैंक</span><h1>प्रश्न देखें</h1><p>प्रश्न देखने के बाद परीक्षा पर वापस लौट सकते हैं।</p></div>'+(session?'<button class="btn btn-primary btn-small" data-action="resume-quiz">परीक्षा पर लौटें</button>':'')+'</div>'+
+      '<section class="panel"><div class="data-actions"><input id="bankBrowserSearch" class="bank-search" type="search" placeholder="प्रश्न, विषय या अध्याय खोजें" value="'+esc(bankBrowserQuery)+'"><button class="btn btn-outline btn-small" data-action="search-bank">खोजें</button></div><p class="muted">'+filtered.length+' प्रश्न दिखाए जा रहे हैं (अधिकतम 200)।</p><div class="review-list">'+filtered.map(item=>'<button class="review-item bank-question" data-preview-question="'+esc(item.id)+'"><strong>'+esc(item.subject)+' · '+esc(item.chapter)+'</strong><p>'+esc(item.question)+'</p></button>').join("")+'</div></section>';
+  }
+
+  function showQuestionPreview(id) {
+    const question=bank.find(item=>item.id===id);
+    if(!question)return;
+    modalRoot.innerHTML='<div class="modal-backdrop" data-close-modal><section class="modal" role="dialog" aria-modal="true"><div class="modal-head"><h2>प्रश्न बैंक</h2><button class="icon-btn" data-action="close-modal">×</button></div><p class="field-help">'+esc(question.subject)+' · '+esc(question.chapter)+'</p><h3 class="question-text">'+esc(question.question)+'</h3><div class="options">'+question.options.map((option,index)=>'<div class="option '+(index===question.answer?'correct':'')+'"><span class="option-key">'+"ABCD"[index]+'</span><span>'+esc(option)+'</span></div>').join("")+'</div><p class="field-help">सही उत्तर: '+"ABCD"[question.answer]+' · '+esc(question.explanation||"व्याख्या उपलब्ध नहीं है।")+'</p></section></div>';
+  }
+
+    function downloadFile(name,content,type="application/json") {
     try { const blob=content instanceof Blob?content:new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement("a");
       a.href=url;a.download=name;document.body.append(a);a.click();a.remove();
       setTimeout(()=>URL.revokeObjectURL(url),60000);notify("डाउनलोड शुरू हो गया है।");
