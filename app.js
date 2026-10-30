@@ -140,16 +140,7 @@
     $("#fileUploadInput").addEventListener("change",async e=>{
       const fs=[...e.target.files];
       if(!fs.length)return;
-      try{
-        const filesToSave=fs.map((f,index)=>({
-          id:"file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+index+"-"+Math.random()),
-          name:f.name,type:f.type,size:f.size,addedAt:Date.now()+index,blob:f
-        }));
-        await storeAction("documents","bulkPut",filesToSave);
-        await refreshData();
-        renderData();
-        notify(fs.length+" फ़ाइलें इस डिवाइस में सेव हो गईं।");
-      }catch(err){notify("फ़ाइलें सेव नहीं हुईं: "+(err.message||"स्टोरेज की जगह जाँचें।"));}
+      await handleFileUploads(fs);
     });
   }
   function setView(next) {
@@ -471,6 +462,7 @@ async function handleFileUploads(files) {
     if(jump&&session){moveQuestion(Number(jump.dataset.jump));return;}
     const res=e.target.closest("[data-result-id]");
     if(res){showResult(res.dataset.resultId);return;}
+    const preview=e.target.closest("[data-preview-question]");if(preview){showQuestionPreview(preview.dataset.previewQuestion);return;}
     const fOpen=e.target.closest("[data-doc-open]");if(fOpen){openSavedFile(fOpen.dataset.docOpen);return;}
     const fDown=e.target.closest("[data-doc-download]");if(fDown){openSavedFile(fDown.dataset.docDownload,true);return;}
     const fDel=e.target.closest("[data-doc-delete]");if(fDel){if(confirm("क्या यह फ़ाइल हटानी है?")){await storeAction("documents","delete",fDel.dataset.docDelete);await refreshData();renderData();notify("फ़ाइल हटा दी गई।");}return;}
@@ -488,6 +480,19 @@ async function handleFileUploads(files) {
         startQuiz(mode,subject,chapter,count,duration);break;
       }
       case "import":openImport();break;
+      case "browse-bank":bankBrowserQuery="";renderBankBrowser();break;
+      case "resume-quiz":renderQuiz();break;
+      case "search-bank":renderBankBrowser($("#bankBrowserSearch")?.value||"");break;
+      case "analyze-bank":{
+        latestAnalysis=buildBankAnalysis();
+        const box=$("#qualitySummary");
+        if(box)box.innerHTML="<strong>"+latestAnalysis.totalQuestions+" प्रश्न जाँचे गए</strong><br>संभावित दोहराव: "+latestAnalysis.counts.duplicate+" · PDF-वाक्य: "+latestAnalysis.counts.pdfWording+" · दोहराए विकल्प: "+latestAnalysis.counts.repeatedOptions+" · बिना व्याख्या: "+latestAnalysis.counts.noExplanation+"<br><span class='muted'>यह स्वचालित जाँच है; सही उत्तरों की शैक्षणिक पुष्टि अलग से आवश्यक है।</span>";
+        notify("प्रश्न विश्लेषण पूरा हुआ।");break;
+      }
+      case "export-analysis":{
+        const report=latestAnalysis||buildBankAnalysis();
+        downloadFile("boardmcq-quality-analysis.json",JSON.stringify(report,null,2));break;
+      }
       case "upload-files":$("#fileUploadInput")?.click();break;
       case "confirm-import":{
         const file=$("#jsonFile")?.files?.[0];if(!file){$("#importError").textContent="पहले JSON फ़ाइल चुनें।";break;}
