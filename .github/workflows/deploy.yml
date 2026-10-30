@@ -27,6 +27,12 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Validate JavaScript
+        run: |
+          node --check app.js
+          node --check sw.js
+      - name: Validate MCQ question bank
+        run: node scripts/validate-question-bank.mjs
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
