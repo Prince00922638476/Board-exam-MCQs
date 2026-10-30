@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "title": "कक्षा 10 — छह PDF से तैयार MCQ अभ्यास बैंक",
-  "description": "इस बैंक में दिए गए छह PDF से तैयार अभ्यास प्रश्न हैं। ये सत्यापित आधिकारिक पिछले-वर्ष के प्रश्नपत्र नहीं हैं।",
+  "title": "कक्षा 10 — PDF आधार प्रश्न बैंक और सत्यापित अध्यायवार पूरक अभ्यास",
+  "description": "मूल PDF-आधारित अभ्यास प्रश्न तथा अलग से जाँचा गया जैव प्रक्रम अध्याय अभ्यास।",
   "questionCount": 1488,
   "subjectCounts": {
     "विज्ञान": 359,
@@ -13,5 +13,9 @@
     "./questions/source-02.txt",
     "./questions/source-03.txt",
     "./questions/source-04.txt"
-  ]
+  ],
+  "supplementalFiles": [
+    "./questions/supplement-life-processes.json"
+  ],
+  "supplementalCount": 26
 }
