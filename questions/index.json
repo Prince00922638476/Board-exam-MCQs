@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "title": "कक्षा 10 — छह PDF से तैयार MCQ अभ्यास बैंक",
+  "description": "इस बैंक में दिए गए छह PDF से तैयार अभ्यास प्रश्न हैं। ये सत्यापित आधिकारिक पिछले-वर्ष के प्रश्नपत्र नहीं हैं।",
+  "questionCount": 1488,
+  "subjectCounts": {
+    "विज्ञान": 359,
+    "हिंदी": 930,
+    "सामाजिक विज्ञान": 199
+  },
+  "files": [
+    "./questions/source-01.txt",
+    "./questions/source-02.txt",
+    "./questions/source-03.txt",
+    "./questions/source-04.txt"
+  ]
+}
