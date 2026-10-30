@@ -88,7 +88,7 @@
     $("#heroQuestionCount").textContent = bank.length.toLocaleString("hi-IN");
     $("#heroSubjectCount").textContent = Object.keys(counts).length+" विषय";
     $("#heroProgress").style.width = bank.length ? "100%" : "0%";
-    $("#bankStatus").textContent = bank.length ? bank.length+" प्रश्न उपलब्ध" : "प्रश्न बैंक में अभी प्रश्न नहीं हैं";
+    $("#bankStatus").textContent = bank.length ? bank.length.toLocaleString("hi-IN")+" प्रश्न उपलब्ध" : "प्रश्न बैंक अभी लोड हो रहा है";
     const cards = Object.keys(counts).sort((a,b)=>a.localeCompare(b,"hi")).map(n => {
       const subject = SUBJECTS.find(s=>s.name===n);
       return `<button class="subject-card available" data-subject="${esc(n)}">
@@ -135,7 +135,20 @@
     <div class="notice">आपके अपने आयात किए गए प्रश्न, परिणाम और अपलोड की गई फ़ाइलें अभी इसी डिवाइस/ब्राउज़र में सेव होती हैं। दूसरे लोगों के साथ साझा करने के लिए सुरक्षित ऑनलाइन लॉगिन और संग्रहण अभी जोड़ा जाना बाकी है।</div></section>
     <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">अपनी फ़ाइलें अपलोड करें</h3><p class="muted">PDF, चित्र और अन्य फ़ाइलें चुनें। अपलोड के बाद वे नीचे सूची में दिखेंगी।</p><input id="fileUploadInput" type="file" multiple hidden><div class="data-actions"><button class="btn btn-primary btn-small" data-action="upload-files">फ़ाइलें अपलोड करें</button></div><div class="review-list">${rows||'<p class="muted">अभी कोई फ़ाइल अपलोड नहीं हुई है।</p>'}</div></section>
     <div class="data-actions"><a class="btn btn-outline btn-small" href="./question-format.json" download>JSON नमूना प्रारूप</a><a class="btn btn-outline btn-small" href="./README.md" target="_blank" rel="noopener">निर्देश देखें</a></div>`;
-    $("#fileUploadInput").addEventListener("change",async e=>{const fs=[...e.target.files];try{for(const f of fs){const id="file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+Math.random());await storeAction("documents","put",{id,name:f.name,type:f.type,size:f.size,addedAt:Date.now(),blob:f});}await refreshData();renderData();notify(fs.length+" फ़ाइलें सेव हो गईं।");}catch(err){notify("फ़ाइल सेव नहीं हुई: "+(err.message||"स्टोरेज की जगह जाँचें।"));}});
+    $("#fileUploadInput").addEventListener("change",async e=>{
+      const fs=[...e.target.files];
+      if(!fs.length)return;
+      try{
+        const filesToSave=fs.map((f,index)=>({
+          id:"file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+index+"-"+Math.random()),
+          name:f.name,type:f.type,size:f.size,addedAt:Date.now()+index,blob:f
+        }));
+        await storeAction("documents","bulkPut",filesToSave);
+        await refreshData();
+        renderData();
+        notify(fs.length+" फ़ाइलें इस डिवाइस में सेव हो गईं।");
+      }catch(err){notify("फ़ाइलें सेव नहीं हुईं: "+(err.message||"स्टोरेज की जगह जाँचें।"));}
+    });
   }
   function setView(next) {
     view=next; navActive();
@@ -279,7 +292,7 @@
   async function loadBuiltInQuestionBank() {
     const markerKey = "built-in-pdf-bank-v1";
     const marker = await storeAction("settings","get",markerKey);
-    if (marker) return 0;
+    if (marker && bank.length >= Number(marker.questionCount)) return 0;
 
     const indexResponse = await fetch("./questions/index.json",{cache:"no-cache"});
     if (!indexResponse.ok) throw new Error("प्रश्न बैंक की सूची डाउनलोड नहीं हुई।");
@@ -451,13 +464,17 @@
       db=await openDB();
       await refreshData();
       renderHomeView();
+      if(!bank.length && $("#bankStatus")) $("#bankStatus").textContent="पहली बार 1,488 प्रश्न डाउनलोड हो रहे हैं…";
       try {
         const added=await loadBuiltInQuestionBank();
         if(added) notify(added.toLocaleString("hi-IN")+" प्रश्न बैंक में जोड़ दिए गए।");
         renderHomeView();
       } catch(seedError) {
         console.error("प्रश्न बैंक लोड नहीं हुआ:",seedError);
-        if(!bank.length) notify("प्रश्न बैंक लोड नहीं हुआ। इंटरनेट जुड़ने पर पृष्ठ दोबारा खोलें।");
+        if(!bank.length) {
+          if($("#bankStatus")) $("#bankStatus").textContent="प्रश्न बैंक डाउनलोड नहीं हुआ। इंटरनेट जोड़कर फिर खोलें।";
+          notify("प्रश्न बैंक डाउनलोड नहीं हुआ। इंटरनेट जोड़कर फिर खोलें।");
+        }
       }
       navActive();
     } catch(err) {
