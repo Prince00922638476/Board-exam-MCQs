@@ -218,6 +218,7 @@
     const answered=Object.keys(session.answers).length, marked=session.review.includes(q.id);
     root.innerHTML=`<div class="quiz-top"><div class="quiz-title"><strong>${esc(session.modeLabel)}</strong><span>प्रश्न ${session.cursor+1} / ${session.items.length} · ${esc(q.subject)} · ${esc(q.chapter)}</span></div><div class="timer-pill" id="quizTimer">${formatTime(session.remaining)}</div></div>
       <div class="quiz-progress"><span style="width:${((session.cursor+1)/session.items.length)*100}%"></span></div>
+      <div class="data-actions" style="justify-content:flex-end;margin:-7px 0 12px"><button class="btn btn-outline btn-small" data-action="browse-bank">प्रश्न बैंक देखें (समय चलता रहेगा)</button></div>
       <div class="quiz-layout"><section class="panel question-panel"><div class="question-meta"><span class="tag blue">${esc(q.subject)}</span><span class="tag">${esc(q.chapter)}</span><span class="tag">${esc(({easy:"सरल",medium:"सामान्य",hard:"कठिन"})[q.difficulty]||q.difficulty||"सामान्य")}</span></div>
       <h2 class="question-text">${esc(q.question)}</h2><div class="options">${q.options.map((o,i)=>`<button class="option ${selected===i?"selected":""}" data-option="${i}"><span class="option-key">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
       <div class="quiz-controls"><div class="left"><button class="btn btn-outline btn-small" data-action="prev" ${session.cursor===0?"disabled":""}>← पिछला</button><button class="btn btn-outline btn-small" data-action="mark">${marked?"चिह्न हटाएँ":"बाद में देखें"}</button></div><div class="right"><button class="btn btn-primary btn-small" data-action="next">${session.cursor===session.items.length-1?"जमा करें":"अगला →"}</button></div></div></section>
@@ -543,8 +544,9 @@ async function handleFileUploads(files) {
         if(!file){if(errorEl)errorEl.textContent="पहले JSON फ़ाइल चुनें।";return;}
         button.disabled=true;
         try{
-          await importJSON(file);
+          const imported=await importJSON(file);
           modalRoot.innerHTML="";
+          startQuiz("imported","अपलोड की गई JSON फ़ाइल","",0,Math.max(1800,imported.length*60),imported);
         }catch(err){
           if(errorEl)errorEl.textContent=err.message||"फ़ाइल आयात नहीं हो सकी।";
         }finally{
