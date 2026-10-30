@@ -274,8 +274,18 @@
   }
   function normalizeQuestion(raw,index) {
     if(!raw||typeof raw!=="object")throw new Error("प्रश्न "+(index+1)+" सही वस्तु नहीं है।");
-    const subject=String(raw.subject||"").trim(),chapter=String(raw.chapter||"").trim(),question=String(raw.question||raw.text||"").trim();
-    if(!subject||!chapter||!question)throw new Error("प्रश्न "+(index+1)+": विषय, अध्याय और प्रश्न आवश्यक हैं।");
+    const rawSubject=String(raw.subject||"").trim();
+    if(!rawSubject)throw new Error("प्रश्न "+(index+1)+": विषय आवश्यक है।");
+    const aliases=[
+      [/^(science|विज्ञान)$/i,"विज्ञान"],[/^(math|maths|mathematics|गणित)$/i,"गणित"],
+      [/^(sst|social science|social studies|सामाजिक विज्ञान)$/i,"सामाजिक विज्ञान"],
+      [/^(hindi|हिंदी|हिन्दी)$/i,"हिंदी"],[/^(english|अंग्रेज़ी|अंग्रेजी)$/i,"अंग्रेज़ी"],
+      [/^(art|drawing|painting|कला|चित्रकला)$/i,"कला / चित्रकला"],[/^(sanskrit|संस्कृत)$/i,"संस्कृत"]
+    ];
+    const subject=(aliases.find(([pattern])=>pattern.test(rawSubject))||[])[1]||rawSubject;
+    const chapter=String(raw.chapter||raw.unit||"अपलोड प्रश्न").trim();
+    const question=String(raw.question||raw.text||raw.questionText||"").trim();
+    if(!question)throw new Error("प्रश्न "+(index+1)+": प्रश्न का पाठ खाली है।");
     if(!Array.isArray(raw.options)||raw.options.length!==4||raw.options.some(x=>String(x).trim()===""))throw new Error("प्रश्न "+(index+1)+": ठीक चार खाली न होने वाले विकल्प दें।");
     let answer=raw.answer??raw.correctIndex??raw.correctAnswer??raw.correct_answer;
     if(typeof answer==="string"&&/^[A-D]$/i.test(answer.trim()))answer="ABCD".indexOf(answer.trim().toUpperCase());
