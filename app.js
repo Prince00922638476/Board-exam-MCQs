@@ -40,8 +40,17 @@
         if (!d.objectStoreNames.contains("documents")) d.createObjectStore("documents",{keyPath:"id"});
         if (!d.objectStoreNames.contains("settings")) d.createObjectStore("settings",{keyPath:"key"});
       };
-      request.onsuccess = () => resolve(request.result);
-      request.onerror = () => reject(request.error);
+      let settled=false;
+      request.onblocked = () => {
+        settled=true;
+        reject(new Error("डेटाबेस अपडेट अटका है। इस वेबसाइट के पुराने खुले टैब बंद करके फिर खोलें।"));
+      };
+      request.onsuccess = () => {
+        if(settled){request.result.close();return;}
+        request.result.onversionchange = () => request.result.close();
+        resolve(request.result);
+      };
+      request.onerror = () => { if(!settled) reject(request.error); };
     });
   }
   function storeAction(store,mode,value) {
@@ -395,7 +404,44 @@
       case "finish":finishQuiz(false);break;
     }
   });
-  modalRoot.addEventListener("click",e=>{if(e.target.matches("[data-close-modal]"))modalRoot.innerHTML="";});
+  modalRoot.addEventListener("click",async e=>{
+    if(e.target.matches("[data-close-modal]")){modalRoot.innerHTML="";return;}
+    const button=e.target.closest("[data-action]");
+    if(!button)return;
+    switch(button.dataset.action){
+      case "close-modal":
+        modalRoot.innerHTML="";
+        break;
+      case "begin-quiz":{
+        const mode=$("#modeSelect")?.value||"mixed";
+        const subject=$("#subjectSelect")?.value||"";
+        const chapter=$("#chapterSelect")?.value||"";
+        const count=Number($("#countSelect")?.value||20);
+        const duration=Number($("#timeSelect")?.value||1800);
+        if(mode==="chapter"&&(!subject||!chapter)){notify("अध्यायवार अभ्यास के लिए विषय और अध्याय चुनें।");return;}
+        if(mode==="subject"&&!subject){notify("विषयवार अभ्यास के लिए विषय चुनें।");return;}
+        const qs=currentFilter(mode,subject,chapter);
+        if(!qs.length){notify("इस चयन के लिए प्रश्न उपलब्ध नहीं हैं।");return;}
+        startQuiz(mode,subject,chapter,count,duration);
+        break;
+      }
+      case "confirm-import":{
+        const file=$("#jsonFile")?.files?.[0];
+        const errorEl=$("#importError");
+        if(!file){if(errorEl)errorEl.textContent="पहले JSON फ़ाइल चुनें।";return;}
+        button.disabled=true;
+        try{
+          await importJSON(file);
+          modalRoot.innerHTML="";
+        }catch(err){
+          if(errorEl)errorEl.textContent=err.message||"फ़ाइल आयात नहीं हो सकी।";
+        }finally{
+          if(button.isConnected)button.disabled=false;
+        }
+        break;
+      }
+    }
+  });
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modalRoot.innerHTML)modalRoot.innerHTML="";});
   document.querySelector(".top-nav").addEventListener("click",e=>{const b=e.target.closest("[data-view]");if(b)setView(b.dataset.view);});
   window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;$("#installBtn").classList.remove("hidden");});
