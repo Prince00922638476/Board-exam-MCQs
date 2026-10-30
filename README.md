@@ -1,5 +1,30 @@
 # BoardMCQ
 
-Class 10 board-exam MCQ practice platform.
+कक्षा 10 बोर्ड परीक्षा के लिए सरल, मोबाइल-अनुकूल और इंस्टॉल किया जा सकने वाला MCQ अभ्यास मंच।
 
-The site is a lightweight installable PWA. Question content can be imported using a validated JSON file. No sample or fabricated board questions are included; the question bank starts empty until verified source material is added.
+## सुविधाएँ
+- विषयवार, अध्यायवार, मिश्रित, बोर्ड-पैटर्न, कठिन और गलत प्रश्नों का अभ्यास।
+- कुल परीक्षा समय, प्रश्न सूची, आगे-पीछे जाना और बाद में समीक्षा के लिए प्रश्न चिह्नित करना।
+- सही, गलत, बिना उत्तर, समय और अध्याय-वार समीक्षा।
+- JSON से प्रश्न बैंक आयात/निर्यात।
+- IndexedDB में प्रश्न और परिणाम स्थानीय रूप से सहेजना।
+- PWA और सर्विस वर्कर के माध्यम से पहले से खोले गए ऐप का ऑफलाइन उपयोग।
+
+## प्रश्न जोड़ने का तरीका
+1. वेबसाइट में **प्रश्न बैंक → JSON प्रश्न जोड़ें** खोलें।
+2. `question-format.json` की संरचना में अपनी JSON फ़ाइल तैयार करें।
+3. हर प्रश्न में `subject`, `chapter`, `question`, चार `options` और सही `answer` दें।
+4. `answer` विकल्प का क्रमांक 0–3 या A–D हो सकता है।
+5. `id` हर प्रश्न के लिए अलग रखें। `difficulty` का मान `easy`, `medium` या `hard` रखें।
+6. स्रोत की जानकारी `source` और `sourceType` में लिखें। पुराने बोर्ड प्रश्नपत्र का वर्ष तभी लिखें जब स्रोत से पुष्टि हो।
+
+फ़ाइल में `questions` नाम की सूची होनी चाहिए; सीधे JSON array भी स्वीकार है।
+
+## GitHub Pages
+Repository Settings → Pages → Build and deployment → Source में **GitHub Actions** चुनें। इसके बाद `main` पर push होने पर workflow साइट प्रकाशित करेगा। प्रकाशित URL आम तौर पर:
+`https://Prince00922638476.github.io/Board-exam-MCQs/`
+
+## डेटा और गोपनीयता
+इस प्रारंभिक संस्करण में कोई लॉगिन या Firebase/Firestore कनेक्शन नहीं है। प्रश्न बैंक और परिणाम उसी ब्राउज़र के IndexedDB में रहते हैं; अलग डिवाइस पर स्वतः साझा नहीं होते। ब्राउज़र डेटा मिटाने से स्थानीय प्रगति हट सकती है, इसलिए प्रश्न बैंक और परिणाम समय-समय पर निर्यात करके सुरक्षित रखें।
+
+किसी भी प्रश्न को आधिकारिक PYQ बताने से पहले उसका मूल प्रश्नपत्र/स्रोत सत्यापित करें। इस repository में केवल प्रारूप दिया गया है; वास्तविक प्रश्न बैंक स्रोत सामग्री मिलने पर भरा जाएगा।

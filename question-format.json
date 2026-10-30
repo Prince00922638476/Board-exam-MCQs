@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "science-chapter1-q1",
+      "subject": "विज्ञान",
+      "chapter": "रासायनिक अभिक्रियाएँ एवं समीकरण",
+      "question": "यहाँ अपना प्रश्न लिखें।",
+      "options": ["विकल्प A", "विकल्प B", "विकल्प C", "विकल्प D"],
+      "answer": 0,
+      "explanation": "उत्तर की संक्षिप्त व्याख्या (वैकल्पिक)।",
+      "difficulty": "medium",
+      "source": "स्रोत का नाम/पृष्ठ",
+      "sourceType": "textbook",
+      "year": null
+    }
+  ]
+}

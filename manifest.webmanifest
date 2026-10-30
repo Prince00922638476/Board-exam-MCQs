@@ -1,0 +1,14 @@
+{
+  "name": "BoardMCQ - Class 10 Board Exam Practice",
+  "short_name": "BoardMCQ",
+  "description": "कक्षा 10 बोर्ड परीक्षा MCQ अभ्यास",
+  "lang": "hi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

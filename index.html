@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="कक्षा 10 बोर्ड परीक्षा के लिए अध्यायवार और विषयवार MCQ अभ्यास।">
+  <title>BoardMCQ — कक्षा 10 अभ्यास</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="BoardMCQ होम">
+        <span class="brand-mark">B</span>
+        <span class="brand-copy"><strong>BoardMCQ</strong><small>कक्षा 10 · बोर्ड अभ्यास</small></span>
+      </a>
+      <nav class="top-nav" aria-label="मुख्य नेविगेशन">
+        <button class="nav-link active" data-view="home">होम</button>
+        <button class="nav-link" data-view="wrong">गलत प्रश्न</button>
+        <button class="nav-link" data-view="history">परिणाम</button>
+        <button class="nav-link" data-view="data">प्रश्न बैंक</button>
+      </nav>
+      <button id="installBtn" class="install-btn hidden" type="button">ऐप इंस्टॉल करें</button>
+    </header>
+
+    <main id="appRoot" class="main-content" tabindex="-1">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot"></span> आपकी बोर्ड तैयारी, एक जगह</span>
+          <h1>अभ्यास से <span>आत्मविश्वास</span> तक।</h1>
+          <p>कक्षा 10 के प्रश्न हल करें, अपनी गति समझें और कमजोर अध्यायों पर दोबारा अभ्यास करें।</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-action="open-setup">अभ्यास शुरू करें <span aria-hidden="true">→</span></button>
+            <button class="btn btn-secondary" data-view="data">प्रश्न जोड़ें</button>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="प्रश्न बैंक की स्थिति">
+          <div class="hero-card-top"><span class="mini-icon">✓</span><span>आपकी तैयारी</span></div>
+          <strong id="heroQuestionCount">0</strong>
+          <span class="muted">उपलब्ध प्रश्न</span>
+          <div class="progress-track"><span id="heroProgress"></span></div>
+          <div class="hero-card-foot"><span id="heroSubjectCount">0 विषय</span><span>कक्षा 10</span></div>
+        </div>
+      </section>
+
+      <section class="section-heading">
+        <div><span class="eyebrow">विषय चुनें</span><h2>अपना अगला अभ्यास चुनें</h2></div>
+        <span class="subtle" id="bankStatus">प्रश्न बैंक खाली है</span>
+      </section>
+      <section id="subjectGrid" class="subject-grid" aria-live="polite"></section>
+
+      <section class="quick-panel">
+        <div><span class="eyebrow">अभ्यास के तरीके</span><h2>अपनी तैयारी के अनुसार</h2><p>हर अभ्यास के बाद सही, गलत और बिना उत्तर वाले प्रश्न देख सकेंगे।</p></div>
+        <div class="mode-chips">
+          <button class="mode-chip" data-mode="chapter">अध्यायवार</button>
+          <button class="mode-chip" data-mode="subject">विषयवार</button>
+          <button class="mode-chip" data-mode="mixed">मिश्रित अभ्यास</button>
+          <button class="mode-chip" data-mode="board">बोर्ड परीक्षा</button>
+          <button class="mode-chip" data-mode="hard">कठिन प्रश्न</button>
+          <button class="mode-chip" data-mode="wrong">गलत प्रश्न दोहराएँ</button>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <span>BoardMCQ · कक्षा 10 बोर्ड परीक्षा अभ्यास</span>
+        <span>आपकी प्रगति इसी डिवाइस में सुरक्षित रहती है।</span>
+      </footer>
+    </main>
+    <div id="modalRoot"></div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
