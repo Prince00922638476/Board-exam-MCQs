@@ -425,7 +425,15 @@ async function handleFileUploads(files) {
         issues.push({type:"noSource",severity:"low",id:question.id,subject:question.subject,chapter:question.chapter,question:question.question,suggestion:"पुस्तक, अध्याय या स्रोत का नाम जोड़ें।"});
       }
     }
-    return {reportType:"BoardMCQ Question Quality Analysis",version:1,generatedAt:new Date().toISOString(),totalQuestions:bank.length,subjectCounts:questionCounts(),counts,issues,importantNote:"यह नियम-आधारित जाँच है। यह सही उत्तर, तथ्य या पाठ्यक्रम से मेल की शैक्षणिक पुष्टि नहीं करती; high/medium संकेतों को मूल स्रोत से जाँचना आवश्यक है।"};
+    const enrichedIssues=issues.map(issue=>{
+      const question=bank.find(item=>item.id===issue.id);
+      return {...issue,fullQuestion:question?{
+        id:question.id,subject:question.subject,chapter:question.chapter,text:question.question,
+        options:question.options,correctAnswerIndex:question.answer,correctAnswerLetter:"ABCD"[question.answer],
+        explanation:question.explanation,source:question.source,sourceType:question.sourceType,difficulty:question.difficulty
+      }:null};
+    });
+    return {reportType:"BoardMCQ Question Quality Analysis",version:1,generatedAt:new Date().toISOString(),totalQuestions:bank.length,subjectCounts:questionCounts(),counts,issues:enrichedIssues,importantNote:"यह नियम-आधारित जाँच है। यह सही उत्तर, तथ्य या पाठ्यक्रम से मेल की शैक्षणिक पुष्टि नहीं करती; रिपोर्ट में संबंधित पूरे MCQ भी दिए गए हैं ताकि उनकी स्रोत से जाँच की जा सके।"};
   }
 
   function renderBankBrowser(query) {
