@@ -310,17 +310,27 @@
       throw new Error("प्रश्नों की संख्या की जाँच असफल रही।");
     }
 
+    const allRaw=[...sourceData.questions];
+    for(const path of (manifest.supplementalFiles||[])){
+      const response=await fetch(path,{cache:"no-cache"});
+      if(!response.ok)throw new Error("अतिरिक्त प्रश्न फ़ाइल नहीं मिली: "+path);
+      const supplement=await response.json();
+      if(!Array.isArray(supplement.questions))throw new Error("अतिरिक्त प्रश्न फ़ाइल का प्रारूप गलत है: "+path);
+      allRaw.push(...supplement.questions);
+    }
+    const expectedAll=Number(manifest.questionCount)+Number(manifest.supplementalCount||0);
+    if(allRaw.length!==expectedAll)throw new Error("पूरक प्रश्नों की कुल संख्या की जाँच असफल रही।");
     const subjects = {science:"विज्ञान",hindi:"हिंदी",sst:"सामाजिक विज्ञान"};
-    const normalized = sourceData.questions.map((q,index)=>normalizeQuestion({
+    const normalized = allRaw.map((q,index)=>normalizeQuestion({
       id:q.id,
       subject:subjects[q.subject] || q.subject,
       chapter:q.chapter,
-      question:q.text,
+      question:q.text||q.question,
       options:q.options,
-      answer:q.correctIndex,
+      answer:q.correctIndex??q.answer,
       explanation:q.explanation,
       difficulty:q.difficulty,
-      source:q.sourceLabel || "छह PDF से तैयार अभ्यास प्रश्न",
+      source:q.sourceLabel || q.source || "प्रश्न बैंक अभ्यास सामग्री",
       sourceType:q.sourceType || "practice",
       year:q.year || null
     },index));
