@@ -8,16 +8,17 @@
     {name:"सामाजिक विज्ञान",icon:"◎",key:"sst"},
     {name:"हिंदी",icon:"अ",key:"hindi"},
     {name:"अंग्रेज़ी",icon:"A",key:"english"},
-    {name:"संस्कृत",icon:"श्री",key:"sanskrit"}
+    {name:"संस्कृत",icon:"श्री",key:"sanskrit"},
+    {name:"कला / चित्रकला",icon:"🎨",key:"art"}
   ];
   const MODES = {
     chapter:"अध्यायवार अभ्यास", subject:"विषयवार अभ्यास", mixed:"मिश्रित अभ्यास",
-    board:"बोर्ड परीक्षा अभ्यास", hard:"कठिन प्रश्न", wrong:"गलत प्रश्न दोहराएँ"
+    board:"बोर्ड परीक्षा अभ्यास", hard:"कठिन प्रश्न", wrong:"गलत प्रश्न दोहराएँ", imported:"अपलोड किए गए प्रश्न"
   };
   const root = document.getElementById("appRoot");
   const modalRoot = document.getElementById("modalRoot");
   const toastEl = document.getElementById("toast");
-  let db, bank = [], history = [], documents = [], view = "home", selectedMode = "mixed", session = null, tick = null, toastTimer = null, deferredInstall = null;
+  let db, bank = [], history = [], documents = [], view = "home", selectedMode = "mixed", session = null, tick = null, autoAdvanceTimer = null, toastTimer = null, deferredInstall = null;
 
   const $ = (selector, parent=document) => parent.querySelector(selector);
   const $$ = (selector, parent=document) => [...parent.querySelectorAll(selector)];
@@ -225,7 +226,7 @@
     const answered=Object.keys(session.answers).length, marked=session.review.includes(q.id);
     root.innerHTML=`<div class="quiz-top"><div class="quiz-title"><strong>${esc(session.modeLabel)}</strong><span>प्रश्न ${session.cursor+1} / ${session.items.length} · ${esc(q.subject)} · ${esc(q.chapter)}</span></div><div class="timer-pill" id="quizTimer">${formatTime(session.remaining)}</div></div>
       <div class="quiz-progress"><span style="width:${((session.cursor+1)/session.items.length)*100}%"></span></div>
-      <div class="quiz-layout"><section class="panel question-panel"><div class="question-meta"><span class="tag blue">${esc(q.subject)}</span><span class="tag">${esc(q.chapter)}</span><span class="tag">${esc(q.difficulty||"सामान्य")}</span></div>
+      <div class="quiz-layout"><section class="panel question-panel"><div class="question-meta"><span class="tag blue">${esc(q.subject)}</span><span class="tag">${esc(q.chapter)}</span><span class="tag">${esc(({easy:"सरल",medium:"सामान्य",hard:"कठिन"})[q.difficulty]||q.difficulty||"सामान्य")}</span></div>
       <h2 class="question-text">${esc(q.question)}</h2><div class="options">${q.options.map((o,i)=>`<button class="option ${selected===i?"selected":""}" data-option="${i}"><span class="option-key">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
       <div class="quiz-controls"><div class="left"><button class="btn btn-outline btn-small" data-action="prev" ${session.cursor===0?"disabled":""}>← पिछला</button><button class="btn btn-outline btn-small" data-action="mark">${marked?"चिह्न हटाएँ":"बाद में देखें"}</button></div><div class="right"><button class="btn btn-primary btn-small" data-action="next">${session.cursor===session.items.length-1?"जमा करें":"अगला →"}</button></div></div></section>
       <aside class="panel question-side"><h3>प्रश्न सूची <span class="muted">(${answered} उत्तर दिए)</span></h3><div class="question-grid">${session.items.map((item,i)=>`<button class="q-number ${i===session.cursor?"current":""} ${session.answers[item.id]!==undefined?"answered":""} ${session.review.includes(item.id)?"review":""}" data-jump="${i}">${i+1}</button>`).join("")}</div>
@@ -234,6 +235,7 @@
   }
   function moveQuestion(next) {
     if (!session) return;
+    clearTimeout(autoAdvanceTimer);
     const now=Date.now(),activeId=session.items[session.cursor].id;
     session.seconds[activeId]=(session.seconds[activeId]||0)+Math.max(0,Math.round((now-session.questionStartedAt)/1000));
     session.questionStartedAt=now;
@@ -250,7 +252,7 @@
     const finishedAt=Date.now(),activeId=session.items[session.cursor].id;
     session.seconds[activeId]=(session.seconds[activeId]||0)+Math.max(0,Math.round((finishedAt-session.questionStartedAt)/1000));
     session.elapsed=Math.min(session.totalSeconds,Math.floor((finishedAt-session.startedAt)/1000));
-    session.finished=true;clearInterval(tick);
+    session.finished=true;clearInterval(tick);clearTimeout(autoAdvanceTimer);
     const details=session.items.map(q=>({questionId:q.id,question:q.question,subject:q.subject,chapter:q.chapter,options:q.options,answer:q.answer,selected:session.answers[q.id]??null,explanation:q.explanation||"",seconds:session.seconds[q.id]||0,source:q.source||"",difficulty:q.difficulty||""}));
     const correct=details.filter(d=>d.selected===d.answer).length;
     const wrong=details.filter(d=>d.selected!==null&&d.selected!==d.answer).length;
@@ -274,15 +276,16 @@
       <div class="result-stats"><div class="result-stat"><strong class="answer-good">${r.correct}</strong><span>सही उत्तर</span></div><div class="result-stat"><strong class="answer-bad">${r.wrong}</strong><span>गलत उत्तर</span></div><div class="result-stat"><strong>${r.unanswered}</strong><span>बिना उत्तर</span></div><div class="result-stat"><strong>${formatTime(r.elapsed)}</strong><span>कुल समय</span></div></div>
       <section class="panel"><h3 style="margin:0;font-size:14px">अगली बार किस पर ध्यान दें?</h3><div class="review-list">${weakRows.length?weakRows.map(([c,n])=>`<div class="review-item"><strong>${esc(c)}</strong><p>${n} प्रश्नों में दोबारा अभ्यास की ज़रूरत है।</p></div>`).join(""):'<p class="muted">इस अभ्यास में सभी प्रश्न सही हैं। बहुत बढ़िया!</p>'}</div>
       <h3 style="font-size:14px;margin:19px 0 7px">धीमे हल किए गए प्रश्न (45 सेकंड या अधिक)</h3><div class="review-list">${slow.length?slow.slice(0,5).map(d=>`<div class="review-item"><strong>${esc(d.question)}</strong><p>${formatTime(d.seconds)} · ${esc(d.chapter)}</p></div>`).join(""):'<p class="muted">ऐसा कोई प्रश्न नहीं मिला।</p>'}</div>
-      <h3 style="font-size:14px;margin:19px 0 7px">उत्तर समीक्षा</h3><div class="review-list">${r.details.map((d,i)=>`<div class="review-item"><strong>${i+1}. ${esc(d.question)}</strong><p>आपका उत्तर: <span class="${d.selected===d.answer?"answer-good":"answer-bad"}">${d.selected===null?"नहीं दिया":esc("ABCD"[d.selected]+". "+d.options[d.selected])}</span><br>सही उत्तर: <span class="answer-good">${esc("ABCD"[d.answer]+". "+d.options[d.answer])}</span>${d.explanation?"<br>व्याख्या: "+esc(d.explanation):""}</p></div>`).join("")}</div></section>`;
+      <h3 style="font-size:14px;margin:19px 0 7px">उत्तर समीक्षा</h3><div class="review-list">${r.details.filter(d=>d.selected!==null&&d.selected!==d.answer).map((d,i)=>`<div class="review-item wrong-review"><strong>${i+1}. ${esc(d.question)}</strong><p>आपका उत्तर: <span class="${d.selected===d.answer?"answer-good":"answer-bad"}">${d.selected===null?"नहीं दिया":esc("ABCD"[d.selected]+". "+d.options[d.selected])}</span><br>सही उत्तर: <span class="answer-good">${esc("ABCD"[d.answer]+". "+d.options[d.answer])}</span>${d.explanation?"<br>व्याख्या: "+esc(d.explanation):""}</p></div>`).join("")}</div></section>`;
   }
   function normalizeQuestion(raw,index) {
     if(!raw||typeof raw!=="object")throw new Error("प्रश्न "+(index+1)+" सही वस्तु नहीं है।");
     const subject=String(raw.subject||"").trim(),chapter=String(raw.chapter||"").trim(),question=String(raw.question||raw.text||"").trim();
     if(!subject||!chapter||!question)throw new Error("प्रश्न "+(index+1)+": विषय, अध्याय और प्रश्न आवश्यक हैं।");
     if(!Array.isArray(raw.options)||raw.options.length!==4||raw.options.some(x=>String(x).trim()===""))throw new Error("प्रश्न "+(index+1)+": ठीक चार खाली न होने वाले विकल्प दें।");
-    let answer=raw.answer;
+    let answer=raw.answer??raw.correctIndex??raw.correctAnswer??raw.correct_answer;
     if(typeof answer==="string"&&/^[A-D]$/i.test(answer.trim()))answer="ABCD".indexOf(answer.trim().toUpperCase());
+    else if(typeof answer==="string"&&/^[कखगघ]$/.test(answer.trim()))answer="कखगघ".indexOf(answer.trim());
     answer=Number(answer);
     if(!Number.isInteger(answer)||answer<0||answer>3)throw new Error("प्रश्न "+(index+1)+": सही उत्तर 0–3 या A–D में दें।");
     const id=String(raw.id||("q-"+simpleHash(subject+"|"+chapter+"|"+question))).trim();
@@ -290,7 +293,7 @@
   }
   function simpleHash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0).toString(16)}
   async function loadBuiltInQuestionBank() {
-    const markerKey = "built-in-pdf-bank-v1";
+    const markerKey = "built-in-pdf-bank-v2";
     const marker = await storeAction("settings","get",markerKey);
     if (marker && bank.length >= Number(marker.questionCount)) return 0;
 
@@ -339,10 +342,10 @@
     try{data=JSON.parse(text)}catch{throw new Error("JSON फ़ाइल पढ़ी नहीं जा सकी।")}
     const raws=Array.isArray(data)?data:data.questions;
     if(!Array.isArray(raws)||!raws.length)throw new Error("फ़ाइल में questions नाम की प्रश्न सूची नहीं मिली।");
-    const ids=new Set(), normalized=raws.map(normalizeQuestion);
+    const ids=new Set(), normalized=raws.map((q,i)=>normalizeQuestion(q,i));
     for(const q of normalized){if(ids.has(q.id))throw new Error("फ़ाइल में एक ही पहचान दो बार है: "+q.id);ids.add(q.id);}
     await storeAction("questions","bulkPut",normalized);
-    await refreshData();notify(normalized.length+" प्रश्न सफलतापूर्वक जोड़े गए।");setView("home");
+    await refreshData();return normalized;
   }
   function downloadFile(name,content,type="application/json") {
     try { const blob=content instanceof Blob?content:new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement("a");
@@ -372,7 +375,7 @@
     const modeBtn=e.target.closest("[data-mode]");
     if(modeBtn){openSetup(modeBtn.dataset.mode);return;}
     const option=e.target.closest("[data-option]");
-    if(option&&session){const q=session.items[session.cursor];session.answers[q.id]=Number(option.dataset.option);renderQuiz();return;}
+    if(option&&session){const q=session.items[session.cursor];if(session.answers[q.id]!==undefined)return;session.answers[q.id]=Number(option.dataset.option);renderQuiz();clearTimeout(autoAdvanceTimer);autoAdvanceTimer=setTimeout(()=>{if(session&&session.items[session.cursor]?.id===q.id)moveQuestion(session.cursor+1);},550);return;}
     const jump=e.target.closest("[data-jump]");
     if(jump&&session){moveQuestion(Number(jump.dataset.jump));return;}
     const res=e.target.closest("[data-result-id]");
@@ -397,7 +400,7 @@
       case "upload-files":$("#fileUploadInput")?.click();break;
       case "confirm-import":{
         const file=$("#jsonFile")?.files?.[0];if(!file){$("#importError").textContent="पहले JSON फ़ाइल चुनें।";break;}
-        try{await importJSON(file);modalRoot.innerHTML="";}catch(err){$("#importError").textContent=err.message;};break;
+        try{const imported=await importJSON(file);modalRoot.innerHTML="";startQuiz("imported","अपलोड की गई JSON फ़ाइल","",0,Math.max(1800,imported.length*60),imported);}catch(err){$("#importError").textContent=err.message;};break;
       }
       case "export-bank":downloadFile("boardmcq-question-bank.json",JSON.stringify({version:1,questions:bank},null,2));break;
       case "export-results":downloadFile("boardmcq-results.json",JSON.stringify(history,null,2));break;
