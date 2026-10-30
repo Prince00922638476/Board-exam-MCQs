@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   const DB_NAME = "boardmcq-local";
-  const DB_VERSION = 2;
+  const DB_VERSION = 3;
   const SUBJECTS = [
     {name:"विज्ञान",icon:"⚗",key:"science"},
     {name:"गणित",icon:"∑",key:"math"},
@@ -38,6 +38,7 @@
         if (!d.objectStoreNames.contains("questions")) d.createObjectStore("questions",{keyPath:"id"});
         if (!d.objectStoreNames.contains("results")) d.createObjectStore("results",{keyPath:"id"});
         if (!d.objectStoreNames.contains("documents")) d.createObjectStore("documents",{keyPath:"id"});
+        if (!d.objectStoreNames.contains("settings")) d.createObjectStore("settings",{keyPath:"key"});
       };
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error);
@@ -45,10 +46,12 @@
   }
   function storeAction(store,mode,value) {
     return new Promise((resolve,reject) => {
-      const tx = db.transaction(store, mode === "getAll" ? "readonly" : "readwrite");
+      const readOnly = mode === "getAll" || mode === "get";
+      const tx = db.transaction(store, readOnly ? "readonly" : "readwrite");
       const os = tx.objectStore(store);
       let req;
       if (mode === "getAll") req = os.getAll();
+      else if (mode === "get") req = os.get(value);
       else if (mode === "put") req = os.put(value);
       else if (mode === "bulkPut") {
         if (!Array.isArray(value)) { tx.abort(); reject(new Error("सही सूची नहीं मिली।")); return; }
@@ -56,7 +59,7 @@
       }
       else if (mode === "clear") req = os.clear();
       else if (mode === "delete") req = os.delete(value);
-      tx.oncomplete = () => resolve(req && mode === "getAll" ? req.result : true);
+      tx.oncomplete = () => resolve(req && (mode === "getAll" || mode === "get") ? req.result : true);
       tx.onerror = () => reject(tx.error);
       tx.onabort = () => reject(tx.error || new Error("डेटा सहेजा नहीं जा सका"));
     });
@@ -263,6 +266,51 @@
     return {id,subject,chapter,question,options:raw.options.map(x=>String(x).trim()),answer,explanation:String(raw.explanation||""),difficulty:["easy","medium","hard"].includes(raw.difficulty)?raw.difficulty:"medium",source:String(raw.source||""),sourceType:String(raw.sourceType||"practice"),year:raw.year||null};
   }
   function simpleHash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0).toString(16)}
+  async function loadBuiltInQuestionBank() {
+    const markerKey = "built-in-pdf-bank-v1";
+    const marker = await storeAction("settings","get",markerKey);
+    if (marker) return 0;
+
+    const indexResponse = await fetch("./questions/index.json",{cache:"no-cache"});
+    if (!indexResponse.ok) throw new Error("प्रश्न बैंक की सूची डाउनलोड नहीं हुई।");
+    const manifest = await indexResponse.json();
+    if (!Array.isArray(manifest.files) || !manifest.files.length) throw new Error("प्रश्न बैंक की फ़ाइल सूची खाली है।");
+
+    const sourceParts = [];
+    for (const path of manifest.files) {
+      const response = await fetch(path,{cache:"no-cache"});
+      if (!response.ok) throw new Error("प्रश्न बैंक की फ़ाइल नहीं मिली: "+path);
+      sourceParts.push(await response.text());
+    }
+    const sourceData = JSON.parse(sourceParts.join("\n"));
+    if (!Array.isArray(sourceData.questions) || sourceData.questions.length !== Number(manifest.questionCount)) {
+      throw new Error("प्रश्नों की संख्या की जाँच असफल रही।");
+    }
+
+    const subjects = {science:"विज्ञान",hindi:"हिंदी",sst:"सामाजिक विज्ञान"};
+    const normalized = sourceData.questions.map((q,index)=>normalizeQuestion({
+      id:q.id,
+      subject:subjects[q.subject] || q.subject,
+      chapter:q.chapter,
+      question:q.text,
+      options:q.options,
+      answer:q.correctIndex,
+      explanation:q.explanation,
+      difficulty:q.difficulty,
+      source:q.sourceLabel || "छह PDF से तैयार अभ्यास प्रश्न",
+      sourceType:q.sourceType || "practice",
+      year:q.year || null
+    },index));
+    const ids = new Set(normalized.map(q=>q.id));
+    if (ids.size !== normalized.length) throw new Error("प्रश्न बैंक में दोहराई गई पहचान मिली।");
+
+    await storeAction("questions","bulkPut",normalized);
+    await storeAction("settings","put",{
+      key:markerKey,questionCount:normalized.length,loadedAt:Date.now()
+    });
+    await refreshData();
+    return normalized.length;
+  }
   async function importJSON(file) {
     const text=await file.text();let data;
     try{data=JSON.parse(text)}catch{throw new Error("JSON फ़ाइल पढ़ी नहीं जा सकी।")}
@@ -352,8 +400,23 @@
   window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;$("#installBtn").classList.remove("hidden");});
   $("#installBtn").addEventListener("click",async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$("#installBtn").classList.add("hidden");});
   async function init(){
-    try{db=await openDB();await refreshData();renderHomeView();navActive();}
-    catch(err){root.innerHTML='<section class="panel empty-state"><h3>स्थानीय संग्रहण उपलब्ध नहीं है</h3><p>कृपया इस साइट को आधुनिक ब्राउज़र में खोलें और निजी ब्राउज़िंग बंद रखें।</p></section>';console.error(err);}
+    try{
+      db=await openDB();
+      await refreshData();
+      renderHomeView();
+      try {
+        const added=await loadBuiltInQuestionBank();
+        if(added) notify(added.toLocaleString("hi-IN")+" प्रश्न बैंक में जोड़ दिए गए।");
+        renderHomeView();
+      } catch(seedError) {
+        console.error("प्रश्न बैंक लोड नहीं हुआ:",seedError);
+        if(!bank.length) notify("प्रश्न बैंक लोड नहीं हुआ। इंटरनेट जुड़ने पर पृष्ठ दोबारा खोलें।");
+      }
+      navActive();
+    } catch(err) {
+      root.innerHTML='<section class="panel empty-state"><h3>स्थानीय संग्रहण उपलब्ध नहीं है</h3><p>कृपया इस साइट को आधुनिक ब्राउज़र में खोलें और निजी ब्राउज़िंग बंद रखें।</p></section>';
+      console.error(err);
+    }
     if("serviceWorker" in navigator && location.protocol.startsWith("http"))navigator.serviceWorker.register("./sw.js").catch(err=>console.warn("SW:",err));
   }
   init();
