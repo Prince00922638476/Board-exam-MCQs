@@ -1,0 +1,4302 @@
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00340",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "यथा",
+        "और",
+        "आज",
+        "परंतु"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 7 की पट्टी में “आज” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00341",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“आज” किस सूची में दिया गया है?",
+      "options": [
+        "धातु-रूपों की सूची",
+        "अविकारी शब्दों के उदाहरण",
+        "तत्सम शब्दों की सूची",
+        "समास-विग्रह की सूची"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 7 पर “आज” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00342",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "परंतु",
+        "यथा",
+        "और",
+        "आज"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 7 की पट्टी में “और” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00343",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“और” किस सूची में दिया गया है?",
+      "options": [
+        "समास-विग्रह की सूची",
+        "तत्सम शब्दों की सूची",
+        "अविकारी शब्दों के उदाहरण",
+        "धातु-रूपों की सूची"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 7 पर “और” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00344",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "आज",
+        "यथा",
+        "परंतु",
+        "इसलिए"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 7 की पट्टी में “इसलिए” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00345",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“इसलिए” किस सूची में दिया गया है?",
+      "options": [
+        "अविकारी शब्दों के उदाहरण",
+        "धातु-रूपों की सूची",
+        "समास-विग्रह की सूची",
+        "तत्सम शब्दों की सूची"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 7 पर “इसलिए” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00346",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "यथा",
+        "परंतु",
+        "आज",
+        "खूब"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 7 की पट्टी में “खूब” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00347",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“खूब” किस सूची में दिया गया है?",
+      "options": [
+        "धातु-रूपों की सूची",
+        "तत्सम शब्दों की सूची",
+        "अविकारी शब्दों के उदाहरण",
+        "समास-विग्रह की सूची"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 7 पर “खूब” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00348",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "आज",
+        "ऊपर",
+        "यथा",
+        "परंतु"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 7 की पट्टी में “ऊपर” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00349",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“ऊपर” किस सूची में दिया गया है?",
+      "options": [
+        "धातु-रूपों की सूची",
+        "तत्सम शब्दों की सूची",
+        "समास-विग्रह की सूची",
+        "अविकारी शब्दों के उदाहरण"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 7 पर “ऊपर” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00350",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पृष्ठ 7 की सूची में इनमें से कौन-सा शब्द अविकारी शब्द का उदाहरण है?",
+      "options": [
+        "परंतु",
+        "यथा",
+        "आज",
+        "तक"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 7 की पट्टी में “तक” को अविकारी शब्दों के उदाहरणों के साथ दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: example-identification. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00351",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“तक” किस सूची में दिया गया है?",
+      "options": [
+        "समास-विग्रह की सूची",
+        "अविकारी शब्दों के उदाहरण",
+        "धातु-रूपों की सूची",
+        "तत्सम शब्दों की सूची"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 7 पर “तक” अविकारी शब्दों की सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 7; विषय-बिंदु: अविकारी शब्द: पृष्ठ 7; प्रश्न-रूप: reverse-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00352",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“संख्यावाचक पहला पद” किस समास का पहचान-सूत्र है?",
+      "options": [
+        "द्विगु समास",
+        "बहुव्रीहि समास",
+        "कर्मधारय समास",
+        "द्वंद्व समास"
+      ],
+      "correctIndex": 0,
+      "explanation": "चीट-शीट में संख्यावाचक प्रथम पद वाला संकेत दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: द्विगु; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00353",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "समास में बीच में “और” का लोप किस समास की पहचान में मदद करता है?",
+      "options": [
+        "रूपक अलंकार",
+        "द्वंद्व समास",
+        "विसर्ग संधि",
+        "द्विगु समास"
+      ],
+      "correctIndex": 1,
+      "explanation": "क्विक रिवीजन में “और” वाला संकेत है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: द्वंद्व; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00354",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“विशेषण-विशेष्य (गुण/विशेषता)” किस समास की पहचान है?",
+      "options": [
+        "बहुव्रीहि समास",
+        "कर्मधारय समास",
+        "द्विगु समास",
+        "द्वंद्व समास"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह कर्मधारय का पहचान-सूत्र है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: कर्मधारय; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00355",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“तीसरा अर्थ प्रधान” किस समास का संकेत है?",
+      "options": [
+        "बहुव्रीहि समास",
+        "द्वंद्व समास",
+        "कर्मधारय समास",
+        "द्विगु समास"
+      ],
+      "correctIndex": 0,
+      "explanation": "बहुव्रीहि में तीसरा पद/अर्थ प्रधान होता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: बहुव्रीहि; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00356",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "किस छंद में प्रत्येक चरण में 24 मात्राएँ होती हैं?",
+      "options": [
+        "सोरठा",
+        "रोला",
+        "दोहा",
+        "मुक्त छंद"
+      ],
+      "correctIndex": 1,
+      "explanation": "चीट-शीट में 24 मात्राएँ रोला से जोड़ी गई हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: रोला; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00357",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“सा, सी, सम, सरिस, समान” किनका पहचान-सूत्र है?",
+      "options": [
+        "अनुप्रास अलंकार",
+        "उत्प्रेक्षा अलंकार",
+        "उपमा अलंकार",
+        "रूपक अलंकार"
+      ],
+      "correctIndex": 2,
+      "explanation": "ये उपमा-वाचक शब्द हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: उपमा; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00358",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“अभेद आरोप” किस अलंकार की पहचान है?",
+      "options": [
+        "रूपक अलंकार",
+        "उपमा अलंकार",
+        "उत्प्रेक्षा अलंकार",
+        "यमक अलंकार"
+      ],
+      "correctIndex": 0,
+      "explanation": "रूपक में उपमेय पर उपमान का अभेद आरोप होता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: रूपक; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00359",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“जनु, जानो, मनु, मानो, मनहु” किस अलंकार के संकेत शब्द हैं?",
+      "options": [
+        "उत्प्रेक्षा अलंकार",
+        "रूपक अलंकार",
+        "श्लेष अलंकार",
+        "उपमा अलंकार"
+      ],
+      "correctIndex": 0,
+      "explanation": "ये उत्प्रेक्षा के वाचक शब्द बताए गए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: उत्प्रेक्षा; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00360",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“एक मुख्य + एक निर्भर/आश्रित वाक्य” किस वाक्य की संरचना है?",
+      "options": [
+        "मिश्रित वाक्य",
+        "संयुक्त वाक्य",
+        "सरल वाक्य",
+        "केवल प्रश्नवाचक वाक्य"
+      ],
+      "correctIndex": 0,
+      "explanation": "चीट-शीट में यही संरचना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: मिश्र वाक्य; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00361",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "शब्द के आगे जुड़ने वाला शब्दांश क्या कहलाता है?",
+      "options": [
+        "उपसर्ग",
+        "संधि",
+        "समास",
+        "प्रत्यय"
+      ],
+      "correctIndex": 0,
+      "explanation": "उपसर्ग शब्द के आगे जुड़ता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: उपसर्ग; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00362",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "शब्द के पीछे जुड़ने वाला शब्दांश क्या कहलाता है?",
+      "options": [
+        "अलंकार",
+        "प्रत्यय",
+        "विभक्ति-चिह्न",
+        "उपसर्ग"
+      ],
+      "correctIndex": 1,
+      "explanation": "प्रत्यय शब्द के पीछे जुड़ता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: प्रत्यय; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00363",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "चीट-शीट में संधि के कौन-से तीन भेद याद रखने को दिए हैं?",
+      "options": [
+        "हास, शोक और उत्साह",
+        "द्विगु, द्वंद्व और बहुव्रीहि",
+        "उपमा, रूपक और उत्प्रेक्षा",
+        "स्वर, व्यंजन और विसर्ग"
+      ],
+      "correctIndex": 3,
+      "explanation": "अंतिम रिवीजन सूची में तीनों संधि-भेद हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: संधि; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00364",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "पद-परिचय की सूची में कौन-से विकारी शब्द दिए हैं?",
+      "options": [
+        "केवल हास, शोक, उत्साह",
+        "केवल परंतु, यथा, आज, ऊपर",
+        "संज्ञा, सर्वनाम, विशेषण और क्रिया",
+        "केवल स्वर, व्यंजन, विसर्ग"
+      ],
+      "correctIndex": 2,
+      "explanation": "चीट-शीट में विकारी पदों के उदाहरण दिए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: पद परिचय; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "HINDI_VYAKARAN-00365",
+      "subject": "hindi",
+      "chapter": "व्याकरण",
+      "text": "“और, किंतु, परंतु, इसलिए” किस प्रकार के पदों/शब्दों के उदाहरण हैं?",
+      "options": [
+        "समुच्चयबोधक",
+        "विस्मयादिबोधक",
+        "विशेषण",
+        "संज्ञा"
+      ],
+      "correctIndex": 0,
+      "explanation": "ये जोड़ने वाले/समुच्चयबोधक शब्द के उदाहरण हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: Hindi_Vyakaran_Class10_Revision_Notes-1.pdf; पृष्ठ 9; विषय-बिंदु: क्विक रिवीजन: जोड़ने वाले शब्द; प्रश्न-रूप: quick-revision-cue. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00001",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“राष्ट्र” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "प्रत्यक्ष मतदान जिसमें लोगों से किसी प्रस्ताव को स्वीकार या अस्वीकार करने के लिए पूछा जाता है",
+        "समान भाषा, नस्ल, धर्म या ऐतिहासिक संबंधों से जुड़े लोग जो निश्चित भू-भाग में संगठित रूप से रहते हैं",
+        "अपने राष्ट्र/देश के प्रति प्रेम, भक्ति, निष्ठा, समर्पण और सम्मान तथा देश को एक सूत्र में पिरोने की सोच",
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF के शब्दावली खंड में राष्ट्र की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00002",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “समान भाषा, नस्ल, धर्म या ऐतिहासिक संबंधों से जुड़े लोग जो निश्चित भू-भाग में संगठित रूप से रहते हैं”?",
+      "options": [
+        "जनमत संग्रह",
+        "निरंकुशवाद",
+        "राष्ट्रवाद",
+        "राष्ट्र"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह परिभाषा PDF में राष्ट्र के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00003",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“राष्ट्रवाद” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले",
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना",
+        "अपने राष्ट्र/देश के प्रति प्रेम, भक्ति, निष्ठा, समर्पण और सम्मान तथा देश को एक सूत्र में पिरोने की सोच",
+        "समान भाषा, नस्ल, धर्म या ऐतिहासिक संबंधों से जुड़े लोग जो निश्चित भू-भाग में संगठित रूप से रहते हैं"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के शब्दावली खंड में राष्ट्रवाद की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00004",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “अपने राष्ट्र/देश के प्रति प्रेम, भक्ति, निष्ठा, समर्पण और सम्मान तथा देश को एक सूत्र में पिरोने की सोच”?",
+      "options": [
+        "राष्ट्र",
+        "रूढ़िवाद",
+        "निरंकुशवाद",
+        "राष्ट्रवाद"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह परिभाषा PDF में राष्ट्रवाद के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00005",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“निरंकुशवाद” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "समान भाषा, नस्ल, धर्म या ऐतिहासिक संबंधों से जुड़े लोग जो निश्चित भू-भाग में संगठित रूप से रहते हैं",
+        "अपने राष्ट्र/देश के प्रति प्रेम, भक्ति, निष्ठा, समर्पण और सम्मान तथा देश को एक सूत्र में पिरोने की सोच",
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना",
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF के शब्दावली खंड में निरंकुशवाद की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00006",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले”?",
+      "options": [
+        "रूपक",
+        "राष्ट्र",
+        "निरंकुशवाद",
+        "उदारवाद"
+      ],
+      "correctIndex": 2,
+      "explanation": "यह परिभाषा PDF में निरंकुशवाद के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00007",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“उदारवाद” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना",
+        "व्यक्तिगत स्वतंत्रता, कानून के समक्ष समानता और तानाशाही के अंत की भावना",
+        "परंपरा और स्थापित संस्थानों/पुरानी व्यवस्थाओं पर बल देने तथा तीव्र परिवर्तन का विरोध करने वाला राजनीतिक दर्शन",
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF के शब्दावली खंड में उदारवाद की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00008",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “व्यक्तिगत स्वतंत्रता, कानून के समक्ष समानता और तानाशाही के अंत की भावना”?",
+      "options": [
+        "निरंकुशवाद",
+        "राष्ट्र",
+        "रूपक",
+        "उदारवाद"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह परिभाषा PDF में उदारवाद के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00009",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“रूढ़िवाद” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "प्रत्यक्ष मतदान जिसमें लोगों से किसी प्रस्ताव को स्वीकार या अस्वीकार करने के लिए पूछा जाता है",
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना",
+        "परंपरा और स्थापित संस्थानों/पुरानी व्यवस्थाओं पर बल देने तथा तीव्र परिवर्तन का विरोध करने वाला राजनीतिक दर्शन",
+        "व्यक्तिगत स्वतंत्रता, कानून के समक्ष समानता और तानाशाही के अंत की भावना"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के शब्दावली खंड में रूढ़िवाद की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00010",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “परंपरा और स्थापित संस्थानों/पुरानी व्यवस्थाओं पर बल देने तथा तीव्र परिवर्तन का विरोध करने वाला राजनीतिक दर्शन”?",
+      "options": [
+        "रूढ़िवाद",
+        "रूपक",
+        "उदारवाद",
+        "निरंकुशवाद"
+      ],
+      "correctIndex": 0,
+      "explanation": "यह परिभाषा PDF में रूढ़िवाद के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00011",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“जनमत संग्रह” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना",
+        "व्यक्तिगत स्वतंत्रता, कानून के समक्ष समानता और तानाशाही के अंत की भावना",
+        "प्रत्यक्ष मतदान जिसमें लोगों से किसी प्रस्ताव को स्वीकार या अस्वीकार करने के लिए पूछा जाता है",
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के शब्दावली खंड में जनमत संग्रह की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00012",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “प्रत्यक्ष मतदान जिसमें लोगों से किसी प्रस्ताव को स्वीकार या अस्वीकार करने के लिए पूछा जाता है”?",
+      "options": [
+        "जनमत संग्रह",
+        "राष्ट्रवाद",
+        "निरंकुशवाद",
+        "रूढ़िवाद"
+      ],
+      "correctIndex": 0,
+      "explanation": "यह परिभाषा PDF में जनमत संग्रह के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00013",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“रूपक” की सही परिभाषा कौन-सी है?",
+      "options": [
+        "समान भाषा, नस्ल, धर्म या ऐतिहासिक संबंधों से जुड़े लोग जो निश्चित भू-भाग में संगठित रूप से रहते हैं",
+        "अपने राष्ट्र/देश के प्रति प्रेम, भक्ति, निष्ठा, समर्पण और सम्मान तथा देश को एक सूत्र में पिरोने की सोच",
+        "ऐसी शासन व्यवस्था जिसमें राजा पर कोई अंकुश/नियंत्रण न हो और वह अपनी मर्जी से फैसले ले",
+        "किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF के शब्दावली खंड में रूपक की यह परिभाषा दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: term-to-definition. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00014",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कौन-सा शब्द इस परिभाषा से मेल खाता है: “किसी अमूर्त विचार को व्यक्ति या नारी-प्रतिमा के रूप में अभिव्यक्त करना”?",
+      "options": [
+        "रूपक",
+        "जनमत संग्रह",
+        "निरंकुशवाद",
+        "राष्ट्र"
+      ],
+      "correctIndex": 0,
+      "explanation": "यह परिभाषा PDF में रूपक के लिए दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: मूलभूत परिभाषाएँ; प्रश्न-रूप: definition-to-term. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00015",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रेडरिक शारयू ने चार चित्रों की प्रसिद्ध श्रृंखला किस वर्ष बनाई?",
+      "options": [
+        "1789 ई.",
+        "1848 ई.",
+        "1834 ई.",
+        "1815 ई."
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में फ्रांसीसी चित्रकार फ्रेडरिक शारयू की चार चित्रों वाली श्रृंखला 1848 की बताई गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00016",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "शारयू की चित्र-श्रृंखला में किस प्रकार के विश्व का सपना दिखाया गया?",
+      "options": [
+        "केवल औपनिवेशिक साम्राज्यों का",
+        "लोकतांत्रिक और सामाजिक गणराज्यों से बने विश्व का",
+        "केवल औद्योगिक कारखानों का",
+        "केवल निरंकुश राजतंत्रों का"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह चित्र-श्रृंखला के परिचय में दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00017",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "चित्र के केंद्र में कौन-सी प्रतिमा थी?",
+      "options": [
+        "किसान की प्रतिमा",
+        "निरंकुश राजा की प्रतिमा",
+        "स्वतंत्रता की नारी प्रतिमा",
+        "युद्ध के घोड़े की प्रतिमा"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के अनुसार चित्र के केंद्र में स्वतंत्रता की नारी प्रतिमा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00018",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "स्वतंत्रता की प्रतिमा के एक हाथ में क्या था?",
+      "options": [
+        "राजमुकुट",
+        "ज्ञानोदय की मशाल",
+        "कृषि का हल",
+        "तलवार और ढाल"
+      ],
+      "correctIndex": 1,
+      "explanation": "चित्र के वर्णन में एक हाथ में ज्ञानोदय की मशाल है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00019",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "स्वतंत्रता की प्रतिमा के दूसरे हाथ में क्या था?",
+      "options": [
+        "करों की सूची",
+        "राजा का निजी पत्र",
+        "नागरिकों के अधिकारों का घोषणा-पत्र",
+        "रेलवे का नक्शा"
+      ],
+      "correctIndex": 2,
+      "explanation": "दूसरे हाथ में नागरिक अधिकारों का घोषणा-पत्र बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00020",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "प्रतिमा के सामने टूटे शाही मुकुट और संस्थानों के अवशेष किसके अंत का प्रतीक थे?",
+      "options": [
+        "निरंकुशता",
+        "लोकगीतों",
+        "कृषि सुधार",
+        "औद्योगिक क्रांति"
+      ],
+      "correctIndex": 0,
+      "explanation": "टूटे अवशेष निरंकुश संस्थानों के अंत के प्रतीक बताए गए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00021",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "शारयू के चित्र में राष्ट्रों की कतार में दिए गए देशों का सही समूह कौन-सा है?",
+      "options": [
+        "अमेरिका, स्विट्ज़रलैंड, फ्रांस, जर्मनी और ऑस्ट्रिया",
+        "भारत, जापान, चीन और ब्राज़ील",
+        "केवल ब्रिटेन और रूस",
+        "केवल स्पेन और पुर्तगाल"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में इसी प्रकार के देशों की सूची दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00022",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "चित्र में ईसा मसीह, संत और फ़रिश्ते किसका प्रतीक हैं?",
+      "options": [
+        "औद्योगीकरण",
+        "विश्वबंधुत्व और सौहार्द",
+        "सामंती विशेषाधिकार",
+        "निरंकुशता और करों"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह चित्र-विवरण का प्रतीकात्मक अर्थ है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रेडरिक शारयू के चित्र; प्रश्न-रूप: image-description. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00023",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "राष्ट्रवाद की पहली स्पष्ट अभिव्यक्ति किस घटना के साथ हुई?",
+      "options": [
+        "1789 की फ्रांसीसी क्रांति",
+        "1815 की वियना संधि",
+        "1848 की फ्रैंकफर्ट संसद",
+        "1834 का जॉल्वराइन"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में राष्ट्रवाद की पहली स्पष्ट अभिव्यक्ति 1789 की फ्रांसीसी क्रांति के साथ बताई गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00024",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1789 की फ्रांसीसी क्रांति के समय फ्रांस का राजा कौन था?",
+      "options": [
+        "नेपोलियन बोनापार्ट",
+        "चार्ल्स दशम",
+        "लुई फिलिप",
+        "लुई सोलहवाँ (Louis XVI)"
+      ],
+      "correctIndex": 3,
+      "explanation": "क्रांति के समय लुई XVI का निरंकुश शासन दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00025",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF के अनुसार लुई XVI का शासनकाल क्या था?",
+      "options": [
+        "1774–1792",
+        "1789–1815",
+        "1830–1848",
+        "1804–1821"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में लुई XVI का शासन 1774 से 1792 तक दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00026",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति का एक कारण क्या था?",
+      "options": [
+        "करों का पूरी तरह समाप्त होना",
+        "सामंती असमानता का न होना",
+        "अत्याचारी और विलासितापूर्ण निरंकुश शासन",
+        "समान मताधिकार पहले से उपलब्ध होना"
+      ],
+      "correctIndex": 2,
+      "explanation": "यह क्रांति के कारणों में स्पष्ट रूप से है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00027",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति से पहले जनता पर किस प्रकार का आर्थिक दबाव था?",
+      "options": [
+        "सभी करों से मुक्ति",
+        "केवल निर्यात पर लाभ",
+        "मुद्राओं की कोई समस्या नहीं",
+        "भारी कर और गंभीर आर्थिक/खाद्य संकट"
+      ],
+      "correctIndex": 3,
+      "explanation": "स्रोत में भारी कर और आर्थिक/खाद्य संकट को कारण बताया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00028",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांस की सामंती व्यवस्था में विशेषाधिकार किन एस्टेट को थे?",
+      "options": [
+        "केवल किसान",
+        "केवल तृतीय एस्टेट",
+        "सभी एस्टेट समान थे",
+        "प्रथम और द्वितीय एस्टेट — पादरी और कुलीन"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF के अनुसार प्रथम व द्वितीय एस्टेट को विशेषाधिकार और तृतीय का शोषण था।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00029",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति के बाद प्रभुसत्ता किसके हाथ में आई?",
+      "options": [
+        "केवल कुलीन वर्ग",
+        "विदेशी व्यापारियों",
+        "केवल चर्च",
+        "नागरिकों के समूह/नेशनल असेंबली"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह क्रांति के परिणामों में दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00030",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "क्रांति के बाद नया फ्रांसीसी राष्ट्रध्वज कौन-सा चुना गया?",
+      "options": [
+        "लाल, सफेद और नीले रंग का तिरंगा",
+        "लाल और हरा झंडा",
+        "केवल सफेद झंडा",
+        "काला और पीला झंडा"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में फ्रांसीसी तिरंगे के लाल-सफेद-नीले रंग दिए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00031",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति से जुड़े नए सामूहिक पहचान के विचार कौन-से थे?",
+      "options": [
+        "यंग इटली और यंग यूरोप",
+        "जॉल्वराइन और मेटर्निख",
+        "मारियान और जर्मेनिया",
+        "पितृभूमि (La Patrie) और नागरिक (Le Citoyen)"
+      ],
+      "correctIndex": 3,
+      "explanation": "ये अवधारणाएँ क्रांति के परिणामों में दी गई हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00032",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "क्रांति के बाद कानून और प्रशासन में कौन-सा कदम उठाया गया?",
+      "options": [
+        "केवल चर्च के कानून",
+        "कोई प्रशासन न रखना",
+        "हर क्षेत्र के लिए अलग शाही कानून",
+        "पूरे देश में समान कानून और एक केंद्रीय प्रशासनिक व्यवस्था"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में समान केंद्रीय प्रशासन और कानून का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00033",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति के बाद आंतरिक शुल्कों के संबंध में क्या किया गया?",
+      "options": [
+        "नाप-तौल की प्रणालियाँ और अधिक अलग की गईं",
+        "आंतरिक सीमा शुल्क और आयात-निर्यात कर समाप्त किए गए",
+        "हर सीमा पर 5% कर लगाया गया",
+        "व्यापार पूरी तरह बंद किया गया"
+      ],
+      "correctIndex": 1,
+      "explanation": "स्रोत में आंतरिक शुल्क समाप्ति और समान नाप-तौल प्रणाली का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00034",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "क्रांति के बाद फ्रांस की साझा राष्ट्रभाषा के रूप में किसे बढ़ावा दिया गया?",
+      "options": [
+        "फ्रेंच भाषा",
+        "लैटिन भाषा",
+        "पोलिश भाषा",
+        "गेलिक भाषा"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF के अनुसार क्षेत्रीय बोलियों को हतोत्साहित करके फ्रेंच को साझा राष्ट्रभाषा बनाया गया।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00035",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "लुई XVI को 1792 में किस दोष का दोषी पाया गया?",
+      "options": [
+        "मतदान में धोखाधड़ी",
+        "शुल्क संघ तोड़ना",
+        "कर चोरी",
+        "देशद्रोह"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह समय-सारणी और क्रांति के विवरण में लिखा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00036",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "लुई XVI को किस वर्ष गिलोटिन द्वारा मृत्युदंड दिया गया?",
+      "options": [
+        "1792",
+        "1804",
+        "1789",
+        "1793"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में 1793 में गिलोटिन द्वारा मृत्युदंड का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 2; विषय-बिंदु: फ्रांसीसी क्रांति; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00037",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन बोनापार्ट ने फ्रांस की सत्ता में प्रवेश कब किया?",
+      "options": [
+        "1815",
+        "1799",
+        "1789",
+        "1804"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF की समय-सारणी में 1799 दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00038",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन ने स्वयं को फ्रांस का सम्राट किस वर्ष घोषित किया?",
+      "options": [
+        "1804",
+        "1799",
+        "1815",
+        "1834"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में 1804 की नागरिक संहिता और सम्राट घोषित करने का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00039",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन नागरिक संहिता की प्रमुख विशेषता क्या थी?",
+      "options": [
+        "जन्म-आधारित विशेषाधिकार बढ़ाना",
+        "जन्म-आधारित विशेषाधिकारों की समाप्ति",
+        "अलग-अलग नाप-तौल लागू करना",
+        "संपत्ति की सुरक्षा समाप्त करना"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह संहिता की प्रमुख विशेषताओं में शामिल है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00040",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन संहिता ने कानून के समक्ष किस सिद्धांत को लागू किया?",
+      "options": [
+        "केवल कुलीनों की समानता",
+        "सभी नागरिकों की समानता",
+        "केवल पादरियों की समानता",
+        "कानून से पूरी छूट"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में सभी नागरिकों की समानता लिखी है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00041",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन संहिता में किसकी सुरक्षा की गारंटी दी गई?",
+      "options": [
+        "सामंती बंधुआ मजदूरी",
+        "केवल चर्च कर",
+        "केवल राजमुकुट",
+        "निजी संपत्ति"
+      ],
+      "correctIndex": 3,
+      "explanation": "निजी संपत्ति की सुरक्षा संहिता की विशेषता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00042",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन संहिता ने किन व्यवस्थाओं/शुल्कों से मुक्ति दिलाने का उल्लेख किया?",
+      "options": [
+        "राष्ट्रीय ध्वज और राष्ट्रीय भाषा",
+        "रेलवे और संचार",
+        "जनमत संग्रह और गणराज्य",
+        "सामंती व्यवस्था, भू-दासता और जागीरदारी शुल्क"
+      ],
+      "correctIndex": 3,
+      "explanation": "स्रोत में सामंती व्यवस्था, भू-दासता और जागीरदारी शुल्कों से मुक्ति दी है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00043",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन संहिता में किन क्षेत्रों में सुधार का उल्लेख है?",
+      "options": [
+        "केवल मंदिर निर्माण",
+        "केवल खेल प्रतियोगिता",
+        "यातायात और संचार व्यवस्था",
+        "केवल लोकगीत और नृत्य"
+      ],
+      "correctIndex": 2,
+      "explanation": "यातायात और संचार में सुधार संहिता की विशेषताओं में है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00044",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन संहिता किन अधीनस्थ क्षेत्रों में लागू की गई बताई गई है?",
+      "options": [
+        "केवल यूनान और ब्रिटेन",
+        "केवल अमेरिका और कनाडा",
+        "हॉलैंड, स्विट्ज़रलैंड, इटली और जर्मनी",
+        "केवल रूस और पोलैंड"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में इन क्षेत्रों के नाम दिए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00045",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "18वीं सदी के मध्य में यूरोप में आज जैसे क्या नहीं थे?",
+      "options": [
+        "किसान वर्ग",
+        "निरंकुश शासक",
+        "कुलीन वर्ग",
+        "राष्ट्र-राज्य"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF बताता है कि उस समय आधुनिक राष्ट्र-राज्य नहीं थे।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00046",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "यूरोप का सबसे शक्तिशाली और समृद्ध वर्ग कौन-सा था?",
+      "options": [
+        "कुलीन वर्ग (Aristocracy)",
+        "केवल शिल्पकार",
+        "किसान/मजदूर वर्ग",
+        "केवल मध्यवर्ग"
+      ],
+      "correctIndex": 0,
+      "explanation": "सामाजिक संरचना में कुलीन वर्ग को सबसे शक्तिशाली/समृद्ध बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00047",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कुलीन वर्ग की प्रमुख संपत्ति/निवास की विशेषताएँ क्या थीं?",
+      "options": [
+        "केवल अस्थायी तंबू",
+        "केवल कारखानों में निवास",
+        "ग्रामीण बड़ी जायदाद और शहरी हवेलियाँ",
+        "केवल छोटे किराये के कमरे"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के अनुसार कुलीन ग्रामीण संपदा और शहरी हवेलियों से जुड़े थे।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00048",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "किसान/मजदूर वर्ग की स्थिति कैसी थी?",
+      "options": [
+        "सभी विशेषाधिकारों वाला वर्ग",
+        "केवल राजकीय अधिकारी",
+        "सबसे छोटा और सबसे धनी वर्ग",
+        "जनसंख्या का सबसे बड़ा हिस्सा; गरीब, भूमिहीन और अधिकारहीन"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह किसान/मजदूर वर्ग का विवरण है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00049",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मध्यम वर्ग के उदय का कारण PDF में किससे जोड़ा गया है?",
+      "options": [
+        "1815 की वियना संधि",
+        "लोकगीतों का संकलन",
+        "औद्योगिक क्रांति",
+        "केवल फ्रांसीसी राष्ट्रध्वज"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में औद्योगिक क्रांति से मध्यम वर्ग का जन्म बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00050",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मध्यम वर्ग में कौन शामिल थे?",
+      "options": [
+        "उद्योगपति, व्यापारी, डॉक्टर, शिक्षक, वकील और अन्य पेशेवर",
+        "केवल भूमिहीन मजदूर",
+        "केवल राजा और पादरी",
+        "केवल सैनिक"
+      ],
+      "correctIndex": 0,
+      "explanation": "ये मध्यम वर्ग के उदाहरण दिए गए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00051",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "उदारवादी राष्ट्रवाद किसकी मांग करता था?",
+      "options": [
+        "निरंकुश शासन का विस्तार",
+        "आंतरिक शुल्कों को बढ़ाना",
+        "तानाशाही और पादरी विशेषाधिकारों का अंत, संविधान और प्रतिनिधि सरकार",
+        "वोट केवल कुलीनों तक सीमित रखना और संसद समाप्त करना"
+      ],
+      "correctIndex": 2,
+      "explanation": "यह उदारवादी राष्ट्रवाद की परिभाषा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00052",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF के अनुसार उदारवादी केवल किसे वोट देने का अधिकार देना चाहते थे?",
+      "options": [
+        "संपत्तिवान पुरुषों को",
+        "सभी महिलाओं और पुरुषों को",
+        "केवल बच्चों को",
+        "केवल संपत्तिहीन पुरुषों को"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत स्पष्ट करता है कि महिलाएँ और संपत्तिहीन पुरुष मताधिकार से बाहर थे।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: नेपोलियन एवं यूरोप की सामाजिक संरचना; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00053",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जॉल्वराइन शुल्क संघ की स्थापना किस वर्ष हुई?",
+      "options": [
+        "1789",
+        "1815",
+        "1834",
+        "1848"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में 1834 इसकी स्थापना का वर्ष है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00054",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जॉल्वराइन की स्थापना किस राज्य की पहल पर हुई?",
+      "options": [
+        "रूस",
+        "ऑस्ट्रिया",
+        "फ्रांस",
+        "प्रशा (Prussia)"
+      ],
+      "correctIndex": 3,
+      "explanation": "स्रोत में प्रशा की पहल पर जॉल्वराइन स्थापित बताया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00055",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF के उदाहरण में व्यापारी हैम्बर्ग से न्यूरमबर्ग जाने पर लगभग कितनी दूरी तय करता था?",
+      "options": [
+        "600 किमी",
+        "300 किमी",
+        "100 किमी",
+        "1,500 किमी"
+      ],
+      "correctIndex": 0,
+      "explanation": "व्यापार समस्या के उदाहरण में लगभग 600 किमी दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00056",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF के उदाहरण में सीमा शुल्क नाकों पर हर बार कितना कर देना पड़ता था?",
+      "options": [
+        "5%",
+        "25%",
+        "1%",
+        "10%"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में हर बार 5% टैक्स बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00057",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जॉल्वराइन से पहले यूरोप में कितनी से अधिक अलग-अलग मुद्राएँ प्रचलित थीं?",
+      "options": [
+        "30 से अधिक",
+        "10 से अधिक",
+        "100 से अधिक",
+        "5 से अधिक"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में 30 से अधिक मुद्राएँ बताई गई हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00058",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जॉल्वराइन के लाभ के रूप में मुद्राओं की संख्या कितनी कर दी गई बताई गई है?",
+      "options": [
+        "10 से घटाकर 1",
+        "30 से बढ़ाकर 50",
+        "30 से घटाकर 2",
+        "20 से घटाकर 10"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में मुद्रा संख्या 30 से घटाकर केवल 2 दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00059",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1815 में वाटरलू युद्ध में नेपोलियन को हराने वाली चार शक्तियाँ कौन थीं?",
+      "options": [
+        "ब्रिटेन, फ्रांस, इटली और यूनान",
+        "अमेरिका, स्विट्ज़रलैंड, यूनान और पोलैंड",
+        "प्रशा, ऑस्ट्रिया, ब्रिटेन और रूस",
+        "फ्रांस, इटली, स्पेन और पुर्तगाल"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में यही चार महाशक्तियाँ दी गई हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00060",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना सम्मेलन की अध्यक्षता किसने की?",
+      "options": [
+        "काउंट कावूर",
+        "ज्युसेपे मेत्सिनी",
+        "ऑस्ट्रिया के चांसलर ड्यूक मैटरनिक",
+        "ऑटो वॉन बिस्मार्क"
+      ],
+      "correctIndex": 2,
+      "explanation": "वियना सम्मेलन का अध्यक्ष ड्यूक मैटरनिक बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00061",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना सम्मेलन कहाँ हुआ?",
+      "options": [
+        "ऑस्ट्रिया की राजधानी वियना में",
+        "इटली की राजधानी रोम में",
+        "फ्रांस की राजधानी पेरिस में",
+        "जर्मनी की राजधानी बर्लिन में"
+      ],
+      "correctIndex": 0,
+      "explanation": "यह सम्मेलन के परिचय में दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00062",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना संधि में फ्रांस की सीमाओं के पास नए राज्य क्यों स्थापित किए गए?",
+      "options": [
+        "ताकि फ्रांस की सीमाएँ मिट जाएँ",
+        "ताकि व्यापार पूरी तरह समाप्त हो",
+        "ताकि फ्रांस भविष्य में विस्तार न कर सके",
+        "ताकि फ्रांस को नया उपनिवेश मिले"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF के अनुसार उद्देश्य फ्रांस के भविष्य के विस्तार को रोकना था।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00063",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना संधि के अनुसार ऑस्ट्रिया को किस क्षेत्र का नियंत्रण मिला?",
+      "options": [
+        "पोलैंड",
+        "नीदरलैंड",
+        "उत्तरी इटली",
+        "आयरलैंड"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में ऑस्ट्रिया को उत्तरी इटली का नियंत्रण बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00064",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना संधि के अनुसार रूस को क्या मिला?",
+      "options": [
+        "हॉलैंड",
+        "पोलैंड का हिस्सा",
+        "उत्तरी इटली",
+        "ब्रिटेन"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह वियना संधि के निर्णयों में दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00065",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन द्वारा बनाए गए कितने जर्मन राज्यों के महासंघ को बरकरार रखा गया?",
+      "options": [
+        "50",
+        "39",
+        "30",
+        "13"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में 39 जर्मन राज्यों के महासंघ का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00066",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वियना संधि के बाद निरंकुशता बनाए रखने के साथ किस पर सेंसरशिप लगाई गई?",
+      "options": [
+        "केवल भोजन पर",
+        "केवल रेलगाड़ियों पर",
+        "अखबारों, किताबों और नाटकों पर",
+        "केवल व्यापारिक वस्तुओं पर"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में अखबार, किताब और नाटक पर सख्त सेंसरशिप लिखी है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: जॉल्वराइन एवं वियना संधि; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00067",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "दिए गए PDF के अनुसार वियना संधि में फ्रांस में किसे राजा बनाया गया बताया गया है?",
+      "options": [
+        "नेपोलियन बोनापार्ट",
+        "विक्टर इमैनुअल द्वितीय",
+        "चार्ल्स दशम (PDF में ऐसा लिखा है)",
+        "लुई फिलिप"
+      ],
+      "correctIndex": 2,
+      "explanation": "⚠ स्रोत-जाँच आवश्यक: उत्तर को आधिकारिक पाठ्यपुस्तक से मिलाकर देखें। स्रोत की पंक्ति को ज्यों का त्यों दर्ज किया गया है, लेकिन यह ऐतिहासिक तथ्य जाँचना आवश्यक है: सामान्य ऐतिहासिक पाठ्यक्रम में 1815 की पुनर्स्थापना के संदर्भ में लुई अठारहवें का नाम आता है। इस MCQ को आधिकारिक पाठ्यपुस्तक से सत्यापित किए बिना scored practice में न रखें।",
+      "difficulty": "hard",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 3; विषय-बिंदु: वियना संधि — स्रोत-जाँच; प्रश्न-रूप: source-claim-needs-review. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं। ⚠ स्रोत की पंक्ति/वर्तनी की मानवीय जाँच आवश्यक।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00068",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1815 के बाद उदारवादी-राष्ट्रवादी दमन से बचने के लिए क्या करने लगे?",
+      "options": [
+        "राजतंत्र को बिना विरोध स्वीकार करने लगे",
+        "सभी राजनीतिक गतिविधियाँ सार्वजनिक कर दीं",
+        "गुप्त संगठन बनाने लगे",
+        "केवल व्यापार संघ बनाए"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में दमन के भय से भूमिगत होकर गुप्त संगठन बनाने का वर्णन है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00069",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "ज्युसेपे मेत्सिनी का जन्म किस वर्ष और कहाँ बताया गया है?",
+      "options": [
+        "1848 ई., बर्लिन",
+        "1789 ई., पेरिस",
+        "1807 ई., जेनोवा (जिनेवा)",
+        "1815 ई., वियना"
+      ],
+      "correctIndex": 2,
+      "explanation": "मेत्सिनी का जन्म 1807 में जेनोवा बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00070",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मेत्सिनी को किस आयु में देश-निकाला दिया गया?",
+      "options": [
+        "26 वर्ष",
+        "18 वर्ष",
+        "40 वर्ष",
+        "21 वर्ष"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में 26 वर्ष की आयु का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00071",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मेत्सिनी ने “यंग इटली” कहाँ स्थापित किया?",
+      "options": [
+        "वियना",
+        "मार्सेई",
+        "बर्न",
+        "पेरिस"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह गुप्त संगठन सूची में दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00072",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मेत्सिनी ने “यंग यूरोप” कहाँ स्थापित किया?",
+      "options": [
+        "रोम",
+        "मार्सेई",
+        "लंदन",
+        "बर्न"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में Young Europe के लिए बर्न दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00073",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "रुमानीवाद किस प्रकार का आंदोलन था?",
+      "options": [
+        "केवल व्यापारिक शुल्क संघ",
+        "केवल कर-सुधार आंदोलन",
+        "केवल सैन्य गठबंधन",
+        "सांस्कृतिक आंदोलन, जो कला, काव्य, लोकगीत, लोकनृत्य और संगीत से राष्ट्रीय भावना जगाना चाहता था"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह रुमानीवाद की दी गई परिभाषा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00074",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "योहान गॉटफ्रीड हर्डर के अनुसार सच्ची जर्मन संस्कृति कहाँ निहित है?",
+      "options": [
+        "आम लोगों (Volk) में",
+        "केवल विदेशी व्यापारियों में",
+        "केवल कुलीनों में",
+        "केवल राजदरबार में"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में हर्डर का मत दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00075",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "हर्डर के अनुसार राष्ट्र की आत्मा लोकजीवन में कैसे प्रकट होती है?",
+      "options": [
+        "केवल सीमाशुल्क से",
+        "केवल कानूनों से",
+        "लोकगीतों और लोकनृत्यों से",
+        "केवल राजमुकुट से"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में Volksgeist को लोकगीतों और लोकनृत्यों से प्रकट बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00076",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "पोलैंड में रूस ने किस भाषा को हटाकर रूसी भाषा लागू की?",
+      "options": [
+        "फ्रेंच भाषा",
+        "गेलिक भाषा",
+        "जर्मन भाषा",
+        "पोलिश भाषा"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में पोलिश भाषा हटाने और रूसी लागू करने का वर्णन है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00077",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह किस वर्ष दबाया गया?",
+      "options": [
+        "1789",
+        "1831",
+        "1848",
+        "1815"
+      ],
+      "correctIndex": 1,
+      "explanation": "पोलैंड के संघर्ष में 1831 दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00078",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "पोलैंड के लोगों ने पोलिश भाषा का प्रयोग किस रूप में किया?",
+      "options": [
+        "कर वसूलने के साधन के रूप में",
+        "राष्ट्रीय प्रतिरोध के हथियार के रूप में",
+        "केवल व्यापार की भाषा के रूप में",
+        "राजशाही के प्रतीक के रूप में"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में भाषा के प्रयोग को राष्ट्रीय प्रतिरोध का हथियार बताया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00079",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जुलाई 1830 की फ्रांसीसी क्रांति में किस राजा को हटाया गया?",
+      "options": [
+        "चार्ल्स दशम",
+        "नेपोलियन",
+        "लुई फिलिप",
+        "कैसर विलियम प्रथम"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में चार्ल्स दशम को हटाने और लुई फिलिप के आने का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00080",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जुलाई 1830 की क्रांति के बाद फ्रांस में क्या स्थापित हुआ?",
+      "options": [
+        "जर्मन महासंघ",
+        "निरंकुश शासन की बहाली",
+        "लुई फिलिप की अध्यक्षता में संवैधानिक राजतंत्र",
+        "यूरोपीय शुल्क संघ"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में संवैधानिक राजतंत्र लिखा गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00081",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जुलाई क्रांति से प्रेरित बेल्जियम का विद्रोह कहाँ हुआ?",
+      "options": [
+        "मार्सेई",
+        "ब्रूसेल्स",
+        "जेनोवा",
+        "वियना"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में ब्रूसेल्स में विद्रोह बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00082",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "बेल्जियम किससे अलग होकर स्वतंत्र राष्ट्र बना?",
+      "options": [
+        "नीदरलैंड के यूनाइटेड किंगडम से",
+        "ब्रिटेन से",
+        "फ्रांस से",
+        "रूस से"
+      ],
+      "correctIndex": 0,
+      "explanation": "यह बेल्जियम की स्वतंत्रता के विवरण में है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00083",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "यूनान 15वीं सदी से किस साम्राज्य का हिस्सा था?",
+      "options": [
+        "फ्रांसीसी साम्राज्य",
+        "रूसी साम्राज्य",
+        "ऑटोमन साम्राज्य",
+        "ब्रिटिश साम्राज्य"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में यूनान को ऑटोमन साम्राज्य का हिस्सा बताया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00084",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF के अनुसार यूनान का स्वतंत्रता संग्राम किस वर्ष शुरू हुआ?",
+      "options": [
+        "1830",
+        "1815",
+        "1821",
+        "1848"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में यूनान के स्वतंत्रता संग्राम की शुरुआत 1821 दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00085",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "किस अंग्रेज कवि ने यूनान के लिए धन जुटाया और युद्ध में भाग लिया?",
+      "options": [
+        "शिलर",
+        "विक्टर ह्यूगो",
+        "गोएथे",
+        "लॉर्ड बायरन"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में लॉर्ड बायरन का नाम दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00086",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "लॉर्ड बायरन की मृत्यु किस वर्ष और किस कारण हुई?",
+      "options": [
+        "1848 में जेल में",
+        "1832 में युद्ध में",
+        "1815 में समुद्र में",
+        "1824 में बुखार से"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह यूनान के संघर्ष वाले भाग में दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00087",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कुस्तुनतुनिया की संधि किस वर्ष हुई, जिससे यूनान को स्वतंत्र राष्ट्र की मान्यता मिली?",
+      "options": [
+        "1824",
+        "1834",
+        "1821",
+        "1832"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में 1832 की संधि का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00088",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1848 में फ्रांस में जनता के सड़कों पर उतरने के कारण क्या बताए गए हैं?",
+      "options": [
+        "केवल बेहतर फसल और घटे कर",
+        "रेलवे का विस्तार",
+        "भीषण भुखमरी, बेरोजगारी और फसल की तबाही",
+        "जॉल्वराइन का गठन"
+      ],
+      "correctIndex": 2,
+      "explanation": "ये 1848 के सामाजिक संकट के कारण हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00089",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1848 में किस राजा को फ्रांस छोड़कर भागना पड़ा?",
+      "options": [
+        "चार्ल्स दशम",
+        "लुई XVI",
+        "लुई फिलिप",
+        "कैसर विलियम प्रथम"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में लुई फिलिप के भागने का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00090",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1848 के फ्रांस में किसे मताधिकार दिया गया?",
+      "options": [
+        "21 वर्ष से ऊपर के सभी पुरुषों को",
+        "केवल 30 वर्ष से ऊपर पुरुषों को",
+        "केवल कुलीन पुरुषों को",
+        "सभी महिलाओं और पुरुषों को"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में 21 वर्ष से ऊपर के सभी पुरुषों का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00091",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1848 में काम के अधिकार की गारंटी के लिए क्या किया गया?",
+      "options": [
+        "केवल कर बढ़ाए गए",
+        "रोजगार हेतु राष्ट्रीय कारखाने खोले गए",
+        "किसानों को भूमिहीन किया गया",
+        "सभी कारखाने बंद कर दिए गए"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह 1848 के उपायों में दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00092",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रैंकफर्ट संसद की बैठक 18 मई 1848 को कहाँ हुई?",
+      "options": [
+        "ब्रूसेल्स का संसद भवन",
+        "वर्साय का शीशमहल",
+        "सेंट पॉल चर्च",
+        "वियना का राजमहल"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में सेंट पॉल चर्च का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00093",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रैंकफर्ट संसद में जर्मन राष्ट्र के संविधान का प्रारूप बनाने के लिए कितने निर्वाचित प्रतिनिधि बताए गए हैं?",
+      "options": [
+        "21",
+        "831",
+        "39",
+        "1848"
+      ],
+      "correctIndex": 1,
+      "explanation": "स्रोत PDF में 831 निर्वाचित प्रतिनिधि लिखा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: गुप्त संगठन, रुमानीवाद और 1830–1848 की क्रांतियाँ; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00094",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी के एकीकरण की प्रक्रिया का नेतृत्व किस राज्य ने किया?",
+      "options": [
+        "प्रशा",
+        "ऑस्ट्रिया",
+        "फ्रांस",
+        "सार्डिनिया-पीडमॉन्ट"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में प्रशा को नेतृत्वकर्ता राज्य बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00095",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी के एकीकरण का मुख्य वास्तुकार कौन था?",
+      "options": [
+        "काउंट कावूर",
+        "ज्युसेपे मेत्सिनी",
+        "ऑटो वॉन बिस्मार्क",
+        "ज्युसेपे गैरीबाल्डी"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में बिस्मार्क मुख्य वास्तुकार हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00096",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "बिस्मार्क की नीति किस नाम से जानी गई?",
+      "options": [
+        "उदारवादी मताधिकार",
+        "रक्त और लोहे की नीति",
+        "राष्ट्रीय गीत नीति",
+        "लोकगीत और नृत्य नीति"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में रक्त और लोहे की नीति दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00097",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी के एकीकरण के लिए प्रशा ने कितने युद्ध लड़े बताए गए हैं?",
+      "options": [
+        "दो युद्ध",
+        "तीन युद्ध",
+        "पाँच युद्ध",
+        "एक युद्ध"
+      ],
+      "correctIndex": 1,
+      "explanation": "स्रोत के अनुसार सात वर्षों में तीन युद्ध हुए।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00098",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी के एकीकरण के तीन युद्ध किन देशों के साथ हुए?",
+      "options": [
+        "रूस, यूनान और पोलैंड",
+        "डेनमार्क, ऑस्ट्रिया और फ्रांस",
+        "ब्रिटेन, इटली और स्विट्ज़रलैंड",
+        "नीदरलैंड, आयरलैंड और स्पेन"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में डेनमार्क, ऑस्ट्रिया और फ्रांस की सूची है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00099",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी के एकीकरण की पूर्णता किस वर्ष बताई गई है?",
+      "options": [
+        "1870",
+        "1861",
+        "1889",
+        "जनवरी 1871"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में जनवरी 1871 में एकीकरण की पूर्णता दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00100",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "एकीकृत जर्मनी का सम्राट किसे घोषित किया गया?",
+      "options": [
+        "कैसर विलियम प्रथम",
+        "विक्टर इमैनुअल द्वितीय",
+        "नेपोलियन बोनापार्ट",
+        "लुई फिलिप"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में कैसर विलियम प्रथम का नाम है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00101",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मन सम्राट की घोषणा कहाँ हुई?",
+      "options": [
+        "मार्सेई में",
+        "सेंट पॉल चर्च में",
+        "वियना में",
+        "वर्साय के शीशमहल में"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में वर्साय के शीशमहल का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 4; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00102",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "19वीं सदी के मध्य में इटली कितने राज्यों में बँटा था?",
+      "options": [
+        "दस",
+        "तीन",
+        "सात",
+        "पाँच"
+      ],
+      "correctIndex": 2,
+      "explanation": "स्रोत में इटली के सात राज्यों में बँटे होने का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00103",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इटली में इतालवी राजघराने का शासन किस राज्य पर था?",
+      "options": [
+        "ऑस्ट्रिया",
+        "प्रशा",
+        "रोम के पोप राज्य",
+        "सार्डिनिया-पीडमॉन्ट"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में केवल सार्डिनिया-पीडमॉन्ट का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00104",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इटली के एकीकरण के तीन प्रमुख नायक कौन थे?",
+      "options": [
+        "मेत्सिनी, कावूर और गैरीबाल्डी",
+        "हर्डर, शारयू और मैटरनिक",
+        "लुई फिलिप, चार्ल्स दशम और बायरन",
+        "बिस्मार्क, मैटरनिक और नेपोलियन"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में ये तीन प्रमुख नायक हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00105",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "काउंट कावूर किस राज्य का प्रधानमंत्री था?",
+      "options": [
+        "ऑस्ट्रिया",
+        "सार्डिनिया-पीडमॉन्ट",
+        "ब्रिटेन",
+        "प्रशा"
+      ],
+      "correctIndex": 1,
+      "explanation": "कावूर को सार्डिनिया-पीडमॉन्ट का प्रधानमंत्री कहा गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00106",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "कावूर ने फ्रांस के साथ कूटनीतिक संधि के बाद किस वर्ष ऑस्ट्रियाई सेनाओं को हराया?",
+      "options": [
+        "1859",
+        "1848",
+        "1870",
+        "1834"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में 1859 दिया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00107",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "गैरीबाल्डी के स्वयंसेवक किस नाम से जाने जाते थे?",
+      "options": [
+        "लाल कुर्ती",
+        "यंग यूरोप",
+        "काली टोपी",
+        "ब्लू जैकेट"
+      ],
+      "correctIndex": 0,
+      "explanation": "स्रोत में लाल कुर्ती स्वयंसेवकों का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00108",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "गैरीबाल्डी ने किन क्षेत्रों को मुक्त कराया?",
+      "options": [
+        "उत्तरी इटली और प्रशा",
+        "दक्षिणी इटली और दो सिसलियों का राज्य",
+        "पोलैंड और रूस",
+        "ब्रिटेन और आयरलैंड"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में दक्षिणी इटली तथा दो सिसलियों का नाम है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00109",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1861 में एकीकृत इटली का राजा किसे घोषित किया गया?",
+      "options": [
+        "ऑटो वॉन बिस्मार्क",
+        "विक्टर इमैनुअल द्वितीय",
+        "काउंट कावूर",
+        "कैसर विलियम प्रथम"
+      ],
+      "correctIndex": 1,
+      "explanation": "स्रोत समयरेखा में 1861 की यह घटना है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00110",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इटली का एकीकरण पूर्ण कब हुआ?",
+      "options": [
+        "1870 में रोम के शामिल होने पर",
+        "1834 में जॉल्वराइन बनने पर",
+        "1861 में राजा घोषित होते ही",
+        "1859 में कावूर की जीत पर"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF 1870 में रोम के शामिल होने को एकीकरण की पूर्णता मानता है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: जर्मनी और इटली का एकीकरण; प्रश्न-रूप: historical-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00111",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "ब्रिटेन में राष्ट्र-राज्य का निर्माण मुख्यतः किस प्रक्रिया से हुआ?",
+      "options": [
+        "लंबी शांतिपूर्ण संसदीय प्रक्रिया",
+        "केवल एक क्रांति से",
+        "केवल एक युद्ध से",
+        "केवल जनमत संग्रह से"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF में ब्रिटेन की प्रक्रिया को लंबी शांतिपूर्ण संसदीय प्रक्रिया बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00112",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1707 के एक्ट ऑफ यूनियन से कौन-सा राज्य बना?",
+      "options": [
+        "यंग यूरोप",
+        "जॉल्वराइन संघ",
+        "यूनाइटेड किंगडम ऑफ ग्रेट ब्रिटेन",
+        "यूनाइटेड किंगडम ऑफ आयरलैंड"
+      ],
+      "correctIndex": 2,
+      "explanation": "इंग्लैंड और स्कॉटलैंड के समझौते से यह गठन बताया गया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00113",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1707 के एक्ट ऑफ यूनियन के बाद किस संस्कृति/भाषा को दबाया गया बताया गया है?",
+      "options": [
+        "पोलिश भाषा और संस्कृति",
+        "फ्रेंच भाषा",
+        "स्कॉटिश संस्कृति और गेलिक भाषा",
+        "इतालवी भाषा"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF में स्कॉटिश संस्कृति और गेलिक भाषा का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00114",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "आयरलैंड का यूनाइटेड किंगडम में बलपूर्वक विलय किस वर्ष बताया गया है?",
+      "options": [
+        "1707",
+        "1815",
+        "1834",
+        "1801"
+      ],
+      "correctIndex": 3,
+      "explanation": "यह तारीख स्रोत में दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00115",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "ब्रिटेन का नया झंडा कौन-सा बताया गया है?",
+      "options": [
+        "जर्मेनिया",
+        "यूनियन जैक",
+        "मारियान",
+        "फ्रांसीसी तिरंगा"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF में यूनियन जैक राष्ट्रीय ध्वज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00116",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF में ब्रिटेन का राष्ट्रगान कौन-सा दिया है?",
+      "options": [
+        "La Marseillaise",
+        "Young Europe",
+        "Ode to Joy",
+        "God Save Our Noble King"
+      ],
+      "correctIndex": 3,
+      "explanation": "स्रोत में “गॉड सेव आवर नोबल किंग” लिखा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00117",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांस की नारी रूपक का नाम क्या है?",
+      "options": [
+        "जर्मेनिया",
+        "पितृभूमि",
+        "मारियान",
+        "वोल्क"
+      ],
+      "correctIndex": 2,
+      "explanation": "मारियान फ्रांस का राष्ट्रीय रूपक है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00118",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मारियान की प्रमुख पहचान-चिह्न क्या हैं?",
+      "options": [
+        "केवल शाही मुकुट",
+        "मशाल और घोषणा-पत्र ही",
+        "बलूत के पत्तों का मुकुट और तलवार",
+        "लाल टोपी, तिरंगा और कलगी"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में मारियान के लाल टोपी, तिरंगा और कलगी का उल्लेख है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00119",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "मारियान किसका प्रतीक है?",
+      "options": [
+        "व्यापार कर",
+        "स्वतंत्रता और प्रजातंत्र",
+        "वीरता और जर्मन राष्ट्र-रक्षा",
+        "निरंकुशता"
+      ],
+      "correctIndex": 1,
+      "explanation": "यह प्रतीकात्मक विवरण है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00120",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मनी की नारी रूपक का नाम क्या है?",
+      "options": [
+        "मारियान",
+        "सुरसरी",
+        "यंग इटली",
+        "जर्मेनिया"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF में जर्मनी के नारी रूपक को जर्मेनिया कहा है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00121",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मेनिया के मुकुट में किस वृक्ष के पत्ते हैं?",
+      "options": [
+        "अंगूर की बेल",
+        "बलूत के पत्ते",
+        "नीम के पत्ते",
+        "पीपल के पत्ते"
+      ],
+      "correctIndex": 1,
+      "explanation": "बलूत के पत्ते वीरता के प्रतीक बताए गए हैं।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00122",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जर्मेनिया के हाथ में तलवार किसका संदेश देती है?",
+      "options": [
+        "चर्च की शक्ति",
+        "कृषि उत्पादन",
+        "व्यापार शुल्क",
+        "राष्ट्र की रक्षा"
+      ],
+      "correctIndex": 3,
+      "explanation": "तलवार राष्ट्र-रक्षा का संदेश देती है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 5; विषय-बिंदु: ब्रिटेन एवं राष्ट्रीय रूपक; प्रश्न-रूप: symbol-and-date. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00123",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "वाटरलू का युद्ध किस वर्ष हुआ?",
+      "options": [
+        "1848",
+        "1830",
+        "1789",
+        "1815"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की महत्वपूर्ण तिथियों की तालिका में 1815 दिया गया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: महत्वपूर्ण तिथियाँ; प्रश्न-रूप: timeline-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00124",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "सार्डिनिया-पीडमॉन्ट ने ऑस्ट्रिया को किस वर्ष पराजित किया?",
+      "options": [
+        "1859",
+        "1848",
+        "1870",
+        "1834"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF की समय-सारणी में 1859 दर्ज है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: महत्वपूर्ण तिथियाँ; प्रश्न-रूप: timeline-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00125",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "यूनान को स्वतंत्र राष्ट्र की मान्यता किस वर्ष दी गई?",
+      "options": [
+        "1830",
+        "1824",
+        "1821",
+        "1832"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1832 दिया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: महत्वपूर्ण तिथियाँ; प्रश्न-रूप: timeline-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00126",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रांसीसी क्रांति का वर्ष क्या है?",
+      "options": [
+        "1834",
+        "1815",
+        "1789",
+        "1804"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1789 दिया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: महत्वपूर्ण तिथियाँ; प्रश्न-रूप: timeline-recall. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00127",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इस PDF में फ्रांसीसी क्रांति का कौन-सा वर्ष अध्याय की रूपरेखा में दिया है?",
+      "options": [
+        "1804",
+        "1789",
+        "1834",
+        "1848"
+      ],
+      "correctIndex": 1,
+      "explanation": "अध्याय सार में फ्रांसीसी क्रांति 1789 दी है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00128",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "नेपोलियन की नागरिक संहिता का वर्ष विषय-सूची में क्या दिया है?",
+      "options": [
+        "1815",
+        "1789",
+        "1834",
+        "1804"
+      ],
+      "correctIndex": 3,
+      "explanation": "अध्याय सार और विषय-सूची में 1804 है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00129",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "जॉल्वराइन शुल्क संघ किस वर्ष से जोड़ा गया है?",
+      "options": [
+        "1789",
+        "1834",
+        "1815",
+        "1848"
+      ],
+      "correctIndex": 1,
+      "explanation": "अध्याय की रूपरेखा में जॉल्वराइन के साथ 1834 दिया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00130",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की विषय-सूची में किस क्रांतिकारी विचारक/संगठक का नाम है?",
+      "options": [
+        "फ्रेडरिक विलियम चतुर्थ",
+        "चार्ल्स डिकेंस",
+        "लुई फिलिप",
+        "ज्यूसेपे मेत्सिनी"
+      ],
+      "correctIndex": 3,
+      "explanation": "विषय-सूची में गुप्त संगठन एवं मेत्सिनी शामिल हैं।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00131",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“राष्ट्र की दृश्य कल्पना” किन प्रतीकों के साथ पढ़ाई जाती है?",
+      "options": [
+        "मारियान और जर्मेनिया",
+        "हंस और सरस्वती",
+        "स्वतंत्रता और समानता",
+        "रोमन और यूनानी"
+      ],
+      "correctIndex": 0,
+      "explanation": "विषय-सूची में मारियान एवं जर्मेनिया हैं।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00132",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF में 1830 से 1848 के बीच के समय को किस रूप में रखा गया है?",
+      "options": [
+        "औद्योगिक शांति का युग",
+        "पुनर्जागरण से पहले का युग",
+        "क्रांतियों का युग",
+        "मध्ययुग"
+      ],
+      "correctIndex": 2,
+      "explanation": "विषय-सूची में 1830–1848: क्रांतियों का युग लिखा है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00133",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इस अध्याय में किन दो देशों के एकीकरण पर अलग अनुभाग हैं?",
+      "options": [
+        "जर्मनी और इटली",
+        "स्पेन और पुर्तगाल",
+        "भारत और चीन",
+        "रूस और स्वीडन"
+      ],
+      "correctIndex": 0,
+      "explanation": "विषय-सूची में जर्मनी और इटली के एकीकरण अलग शीर्षक हैं।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00134",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "फ्रेडरिक शारयू के चित्र किस वर्ष से संबंधित खंड में हैं?",
+      "options": [
+        "1848",
+        "1834",
+        "1804",
+        "1789"
+      ],
+      "correctIndex": 0,
+      "explanation": "सारांश/विषय-सूची में 1848 का खंड है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00135",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "इस PDF में 1815 की कौन-सी घटना शामिल है?",
+      "options": [
+        "जॉल्वराइन शुल्क संघ",
+        "फ्रांसीसी क्रांति",
+        "वियना संधि",
+        "जर्मन साम्राज्य की घोषणा"
+      ],
+      "correctIndex": 2,
+      "explanation": "वियना संधि का वर्ष 1815 विषय-सूची में है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00136",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "राष्ट्रवाद के अध्याय में सामाजिक संरचना और मध्यम वर्ग का उदय किस सदी से संबंधित विषय है?",
+      "options": [
+        "15वीं सदी का एशिया",
+        "प्राचीन भारत",
+        "20वीं सदी का अफ्रीका",
+        "18वीं सदी का यूरोप"
+      ],
+      "correctIndex": 3,
+      "explanation": "विषय-सूची में 18वीं सदी का यूरोप दिया है।",
+      "difficulty": "easy",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 1; विषय-बिंदु: अध्याय रूपरेखा; प्रश्न-रूप: chapter-outline. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00137",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन” किस वर्ष हुआ?",
+      "options": [
+        "1815",
+        "1793",
+        "1707",
+        "1824"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1707 के सामने “एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00138",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1707 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "लुई 16वें को देशद्रोह का दोषी पाया गया",
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह",
+        "एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन",
+        "लुई 16वें का शासनकाल"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1707 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00139",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "ब्रिटेन / स्कॉटलैंड",
+        "पेरिस, फ्रांस",
+        "फ्रांस",
+        "वियना, ऑस्ट्रिया / मैटरनिक"
+      ],
+      "correctIndex": 0,
+      "explanation": "समय-सारणी में इस घटना के साथ “ब्रिटेन / स्कॉटलैंड” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00140",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “लुई 16वें का शासनकाल” किस वर्ष हुआ?",
+      "options": [
+        "1804",
+        "1793",
+        "1789",
+        "1774–1792"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1774–1792 के सामने “लुई 16वें का शासनकाल” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00141",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1774–1792 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)",
+        "कवि लॉर्ड बायरन की बुखार से मृत्यु",
+        "लुई 16वें का शासनकाल",
+        "इटली का एकीकरण पूरा; रोम राजधानी बनी"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1774–1792 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00142",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“लुई 16वें का शासनकाल” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूरोप / पेरिस / जर्मनी",
+        "फ्रांस",
+        "फ्रांस एवं यूरोप",
+        "इटली"
+      ],
+      "correctIndex": 1,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00143",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति” किस वर्ष हुआ?",
+      "options": [
+        "1789",
+        "1774–1792",
+        "1799",
+        "1870"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1789 के सामने “फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00144",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1789 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना",
+        "नेपोलियन की नागरिक संहिता लागू हुई",
+        "ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)",
+        "फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1789 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00145",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "फ्रांस",
+        "वर्साय / जर्मनी / प्रशा",
+        "ब्रिटेन / स्कॉटलैंड",
+        "यूनान"
+      ],
+      "correctIndex": 0,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00146",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “लुई 16वें को देशद्रोह का दोषी पाया गया” किस वर्ष हुआ?",
+      "options": [
+        "1807",
+        "1792",
+        "1774–1792",
+        "1831"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1792 के सामने “लुई 16वें को देशद्रोह का दोषी पाया गया” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00147",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1792 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "इटली का एकीकरण पूरा; रोम राजधानी बनी",
+        "लुई 16वें को देशद्रोह का दोषी पाया गया",
+        "शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद",
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF की समय-सारणी में 1792 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00148",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“लुई 16वें को देशद्रोह का दोषी पाया गया” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "फ्रांस एवं यूरोप",
+        "ब्रिटेन / आयरलैंड",
+        "वियना, ऑस्ट्रिया / मैटरनिक",
+        "फ्रांस"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00149",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “लुई 16वें को गिलोटिन (फाँसी) दी गई” किस वर्ष हुआ?",
+      "options": [
+        "1793",
+        "1832",
+        "1821",
+        "1848"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1793 के सामने “लुई 16वें को गिलोटिन (फाँसी) दी गई” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00150",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1793 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "नेपोलियन की नागरिक संहिता लागू हुई",
+        "लुई 16वें को गिलोटिन (फाँसी) दी गई",
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश",
+        "जुलाई क्रांति — लुई फिलिप राजा बना"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF की समय-सारणी में 1793 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00151",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“लुई 16वें को गिलोटिन (फाँसी) दी गई” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "पेरिस, फ्रांस",
+        "वियना, ऑस्ट्रिया / मैटरनिक",
+        "पोलैंड / रूस",
+        "यूनान / ऑटोमन साम्राज्य"
+      ],
+      "correctIndex": 0,
+      "explanation": "समय-सारणी में इस घटना के साथ “पेरिस, फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00152",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश” किस वर्ष हुआ?",
+      "options": [
+        "1799",
+        "1807",
+        "1774–1792",
+        "1793"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1799 के सामने “नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00153",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1799 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)",
+        "एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन",
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश",
+        "लुई 16वें को गिलोटिन (फाँसी) दी गई"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1799 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00154",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूरोप / पेरिस / जर्मनी",
+        "पोलैंड / रूस",
+        "फ्रांस एवं यूरोप",
+        "फ्रांस"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00155",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “आयरलैंड का यूनाइटेड किंगडम में विलय” किस वर्ष हुआ?",
+      "options": [
+        "1801",
+        "1832",
+        "1792",
+        "1859"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1801 के सामने “आयरलैंड का यूनाइटेड किंगडम में विलय” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00156",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1801 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह",
+        "सार्डिनिया-पीडमॉन्ट द्वारा ऑस्ट्रिया की पराजय",
+        "लुई 16वें को गिलोटिन (फाँसी) दी गई",
+        "आयरलैंड का यूनाइटेड किंगडम में विलय"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1801 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00157",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“आयरलैंड का यूनाइटेड किंगडम में विलय” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "पेरिस, फ्रांस",
+        "फ्रांस",
+        "प्रशा / जर्मनी",
+        "ब्रिटेन / आयरलैंड"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “ब्रिटेन / आयरलैंड” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00158",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “नेपोलियन की नागरिक संहिता लागू हुई” किस वर्ष हुआ?",
+      "options": [
+        "1804",
+        "1848",
+        "1799",
+        "1821"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1804 के सामने “नेपोलियन की नागरिक संहिता लागू हुई” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00159",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1804 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति",
+        "नेपोलियन की नागरिक संहिता लागू हुई",
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश",
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF की समय-सारणी में 1804 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00160",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“नेपोलियन की नागरिक संहिता लागू हुई” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूनान / ऑटोमन साम्राज्य",
+        "फ्रांस एवं यूरोप",
+        "यूरोप / पेरिस / जर्मनी",
+        "वर्साय / जर्मनी / प्रशा"
+      ],
+      "correctIndex": 1,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस एवं यूरोप” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00161",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)” किस वर्ष हुआ?",
+      "options": [
+        "1774–1792",
+        "1815",
+        "1793",
+        "1807"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1807 के सामने “ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00162",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1807 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)",
+        "लुई 16वें का शासनकाल",
+        "नेपोलियन की नागरिक संहिता लागू हुई",
+        "आयरलैंड का यूनाइटेड किंगडम में विलय"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF की समय-सारणी में 1807 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00163",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "इटली",
+        "ब्रिटेन / स्कॉटलैंड",
+        "यूनान",
+        "ब्रिटेन / आयरलैंड"
+      ],
+      "correctIndex": 0,
+      "explanation": "समय-सारणी में इस घटना के साथ “इटली” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00164",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “वाटरलू का युद्ध; नेपोलियन की हार; वियना संधि” किस वर्ष हुआ?",
+      "options": [
+        "1774–1792",
+        "1789",
+        "1815",
+        "1799"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1815 के सामने “वाटरलू का युद्ध; नेपोलियन की हार; वियना संधि” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00165",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1815 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "जुलाई क्रांति — लुई फिलिप राजा बना",
+        "कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना",
+        "जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना",
+        "वाटरलू का युद्ध; नेपोलियन की हार; वियना संधि"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1815 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00166",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“वाटरलू का युद्ध; नेपोलियन की हार; वियना संधि” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "फ्रांस",
+        "प्रशा / जर्मनी",
+        "पोलैंड / रूस",
+        "वियना, ऑस्ट्रिया / मैटरनिक"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “वियना, ऑस्ट्रिया / मैटरनिक” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00167",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “यूनान के स्वतंत्रता संग्राम की शुरुआत” किस वर्ष हुआ?",
+      "options": [
+        "1804",
+        "1774–1792",
+        "1834",
+        "1821"
+      ],
+      "correctIndex": 3,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1821 के सामने “यूनान के स्वतंत्रता संग्राम की शुरुआत” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00168",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1821 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "लुई 16वें का शासनकाल",
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश",
+        "कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना",
+        "यूनान के स्वतंत्रता संग्राम की शुरुआत"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1821 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00169",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“यूनान के स्वतंत्रता संग्राम की शुरुआत” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "ब्रिटेन / स्कॉटलैंड",
+        "यूरोप / पेरिस / जर्मनी",
+        "इटली",
+        "यूनान / ऑटोमन साम्राज्य"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “यूनान / ऑटोमन साम्राज्य” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00170",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “कवि लॉर्ड बायरन की बुखार से मृत्यु” किस वर्ष हुआ?",
+      "options": [
+        "1824",
+        "1807",
+        "1821",
+        "1870"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1824 के सामने “कवि लॉर्ड बायरन की बुखार से मृत्यु” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00171",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1824 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ",
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना",
+        "आयरलैंड का यूनाइटेड किंगडम में विलय",
+        "कवि लॉर्ड बायरन की बुखार से मृत्यु"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1824 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00172",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“कवि लॉर्ड बायरन की बुखार से मृत्यु” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "वियना, ऑस्ट्रिया / मैटरनिक",
+        "पेरिस, फ्रांस",
+        "यूनान",
+        "यूरोप / पेरिस / जर्मनी"
+      ],
+      "correctIndex": 2,
+      "explanation": "समय-सारणी में इस घटना के साथ “यूनान” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00173",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “जुलाई क्रांति — लुई फिलिप राजा बना” किस वर्ष हुआ?",
+      "options": [
+        "1707",
+        "1830",
+        "1871",
+        "1792"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1830 के सामने “जुलाई क्रांति — लुई फिलिप राजा बना” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00174",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1830 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना",
+        "जुलाई क्रांति — लुई फिलिप राजा बना",
+        "कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना",
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDF की समय-सारणी में 1830 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00175",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“जुलाई क्रांति — लुई फिलिप राजा बना” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "पोलैंड / रूस",
+        "वियना, ऑस्ट्रिया / मैटरनिक",
+        "फ्रांस",
+        "ब्रिटेन / स्कॉटलैंड"
+      ],
+      "correctIndex": 2,
+      "explanation": "समय-सारणी में इस घटना के साथ “फ्रांस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00176",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह” किस वर्ष हुआ?",
+      "options": [
+        "1870",
+        "1831",
+        "1789",
+        "1848"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1831 के सामने “पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00177",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1831 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह",
+        "लुई 16वें को गिलोटिन (फाँसी) दी गई",
+        "कवि लॉर्ड बायरन की बुखार से मृत्यु",
+        "नेपोलियन की नागरिक संहिता लागू हुई"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF की समय-सारणी में 1831 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00178",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूनान",
+        "पेरिस, फ्रांस",
+        "पोलैंड / रूस",
+        "ब्रिटेन / आयरलैंड"
+      ],
+      "correctIndex": 2,
+      "explanation": "समय-सारणी में इस घटना के साथ “पोलैंड / रूस” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00179",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना” किस वर्ष हुआ?",
+      "options": [
+        "1815",
+        "1832",
+        "1834",
+        "1774–1792"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1832 के सामने “कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00180",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1832 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना",
+        "विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ",
+        "ज्यूसेपे मेत्सिनी का जन्म (जेनोवा)",
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF की समय-सारणी में 1832 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00181",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“कुस्तुनतुनिया की संधि — यूनान स्वतंत्र राष्ट्र बना” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूनान",
+        "पोलैंड / रूस",
+        "फ्रांस एवं यूरोप",
+        "यूरोप / पेरिस / जर्मनी"
+      ],
+      "correctIndex": 0,
+      "explanation": "समय-सारणी में इस घटना के साथ “यूनान” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00182",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “जॉल्वराइन सीमा शुल्क संघ की स्थापना” किस वर्ष हुआ?",
+      "options": [
+        "1821",
+        "1834",
+        "1804",
+        "1859"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1834 के सामने “जॉल्वराइन सीमा शुल्क संघ की स्थापना” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00183",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1834 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना",
+        "लुई 16वें को देशद्रोह का दोषी पाया गया",
+        "नेपोलियन की नागरिक संहिता लागू हुई",
+        "आयरलैंड का यूनाइटेड किंगडम में विलय"
+      ],
+      "correctIndex": 0,
+      "explanation": "PDF की समय-सारणी में 1834 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00184",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“जॉल्वराइन सीमा शुल्क संघ की स्थापना” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "ब्रिटेन / स्कॉटलैंड",
+        "प्रशा / जर्मनी",
+        "पोलैंड / रूस",
+        "वर्साय / जर्मनी / प्रशा"
+      ],
+      "correctIndex": 1,
+      "explanation": "समय-सारणी में इस घटना के साथ “प्रशा / जर्मनी” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00185",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद” किस वर्ष हुआ?",
+      "options": [
+        "1848",
+        "1799",
+        "1824",
+        "1861"
+      ],
+      "correctIndex": 0,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1848 के सामने “शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00186",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1848 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ",
+        "लुई 16वें का शासनकाल",
+        "शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद",
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1848 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00187",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "यूनान / ऑटोमन साम्राज्य",
+        "यूरोप / पेरिस / जर्मनी",
+        "पोलैंड / रूस",
+        "पेरिस, फ्रांस"
+      ],
+      "correctIndex": 1,
+      "explanation": "समय-सारणी में इस घटना के साथ “यूरोप / पेरिस / जर्मनी” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00188",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “सार्डिनिया-पीडमॉन्ट द्वारा ऑस्ट्रिया की पराजय” किस वर्ष हुआ?",
+      "options": [
+        "1832",
+        "1859",
+        "1807",
+        "1804"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1859 के सामने “सार्डिनिया-पीडमॉन्ट द्वारा ऑस्ट्रिया की पराजय” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00189",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1859 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "शारयू के चित्र; पेरिस में गणतंत्र; फ्रैंकफर्ट संसद",
+        "फ्रांसीसी क्रांति का प्रारंभ और राजतंत्र की समाप्ति",
+        "सार्डिनिया-पीडमॉन्ट द्वारा ऑस्ट्रिया की पराजय",
+        "जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1859 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00190",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“सार्डिनिया-पीडमॉन्ट द्वारा ऑस्ट्रिया की पराजय” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "इटली",
+        "वर्साय / जर्मनी / प्रशा",
+        "इटली / कावूर",
+        "फ्रांस एवं यूरोप"
+      ],
+      "correctIndex": 2,
+      "explanation": "समय-सारणी में इस घटना के साथ “इटली / कावूर” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00191",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ” किस वर्ष हुआ?",
+      "options": [
+        "1848",
+        "1792",
+        "1861",
+        "1801"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1861 के सामने “विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00192",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1861 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "इटली का एकीकरण पूरा; रोम राजधानी बनी",
+        "पोलैंड में रूस के विरुद्ध सशस्त्र विद्रोह",
+        "जॉल्वराइन सीमा शुल्क संघ की स्थापना",
+        "विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1861 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00193",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“विक्टर इमैनुएल द्वितीय एकीकृत इटली का राजा घोषित हुआ” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "वियना, ऑस्ट्रिया / मैटरनिक",
+        "यूनान",
+        "इटली",
+        "फ्रांस"
+      ],
+      "correctIndex": 2,
+      "explanation": "समय-सारणी में इस घटना के साथ “इटली” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00194",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “इटली का एकीकरण पूरा; रोम राजधानी बनी” किस वर्ष हुआ?",
+      "options": [
+        "1824",
+        "1804",
+        "1870",
+        "1799"
+      ],
+      "correctIndex": 2,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1870 के सामने “इटली का एकीकरण पूरा; रोम राजधानी बनी” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00195",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1870 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "जुलाई क्रांति — लुई फिलिप राजा बना",
+        "लुई 16वें को देशद्रोह का दोषी पाया गया",
+        "एक्ट ऑफ यूनियन — ग्रेट ब्रिटेन का गठन",
+        "इटली का एकीकरण पूरा; रोम राजधानी बनी"
+      ],
+      "correctIndex": 3,
+      "explanation": "PDF की समय-सारणी में 1870 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00196",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“इटली का एकीकरण पूरा; रोम राजधानी बनी” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "वर्साय / जर्मनी / प्रशा",
+        "इटली",
+        "यूरोप / पेरिस / जर्मनी",
+        "यूनान"
+      ],
+      "correctIndex": 1,
+      "explanation": "समय-सारणी में इस घटना के साथ “इटली” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00197",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "PDF की महत्वपूर्ण तिथियों की तालिका के अनुसार “जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना” किस वर्ष हुआ?",
+      "options": [
+        "1859",
+        "1871",
+        "1789",
+        "1799"
+      ],
+      "correctIndex": 1,
+      "explanation": "पृष्ठ 6 की समय-सारणी में 1871 के सामने “जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना” दर्ज है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: event-to-year. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00198",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "1871 ई. की समय-सारणी में कौन-सी घटना लिखी है?",
+      "options": [
+        "नेपोलियन बोनापार्ट का फ्रांस की सत्ता में प्रवेश",
+        "जुलाई क्रांति — लुई फिलिप राजा बना",
+        "जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना",
+        "लुई 16वें का शासनकाल"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF की समय-सारणी में 1871 के लिए यह घटना दी गई है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी; प्रश्न-रूप: year-to-event. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    },
+    {
+      "id": "SOCIAL_SCIENCE_EUROPE_NATIONALISM-00199",
+      "subject": "sst",
+      "chapter": "इतिहास — यूरोप में राष्ट्रवाद का उदय",
+      "text": "“जर्मनी का एकीकरण पूरा; कैसर विलियम प्रथम सम्राट बना” के साथ PDF की समय-सारणी में कौन-सा स्थान/संबंध दिया है?",
+      "options": [
+        "ब्रिटेन / स्कॉटलैंड",
+        "इटली / कावूर",
+        "यूनान",
+        "वर्साय / जर्मनी / प्रशा"
+      ],
+      "correctIndex": 3,
+      "explanation": "समय-सारणी में इस घटना के साथ “वर्साय / जर्मनी / प्रशा” दिया है।",
+      "difficulty": "normal",
+      "sourceType": "practice",
+      "year": "",
+      "sourceLabel": "PDF: europe-mein-rashtrawad-revision-notes.pdf; पृष्ठ 6; विषय-बिंदु: समय-सारणी: स्थान/संबंध; प्रश्न-रूप: event-to-place. यह नोट्स-आधारित अभ्यास प्रश्न है, सत्यापित PYQ नहीं।",
+      "language": "hi"
+    }
+  ],
+  "sourceDocuments": [
+    "Jeevan_Parichay_Lekhak.pdf",
+    "hindi-gadhya-sahitya-vikas-class10.pdf",
+    "Hindi_Vyakaran_Class10_Revision_Notes-1.pdf",
+    "jaiv_prakram_class10_complete_with_diagrams.pdf",
+    "europe-mein-rashtrawad-revision-notes.pdf",
+    "Class10_Periodic_Table_Important_Elements.pdf"
+  ],
+  "chapterCatalogAdditions": {
+    "science": [
+      "आवर्त सारणी: महत्वपूर्ण तत्व"
+    ],
+    "hindi": [
+      "लेखक जीवन-परिचय",
+      "गद्य साहित्य का विकास"
+    ],
+    "sst": [
+      "इतिहास — यूरोप में राष्ट्रवाद का उदय"
+    ]
+  },
+  "reviewRequiredCount": 11
+}
