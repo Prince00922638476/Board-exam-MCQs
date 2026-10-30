@@ -90,10 +90,11 @@
     $("#heroSubjectCount").textContent = Object.keys(counts).length+" विषय";
     $("#heroProgress").style.width = bank.length ? "100%" : "0%";
     $("#bankStatus").textContent = bank.length ? bank.length.toLocaleString("hi-IN")+" प्रश्न उपलब्ध" : "प्रश्न बैंक अभी लोड हो रहा है";
-    const cards = Object.keys(counts).sort((a,b)=>a.localeCompare(b,"hi")).map(n => {
-      const subject = SUBJECTS.find(s=>s.name===n);
-      return `<button class="subject-card available" data-subject="${esc(n)}">
-        <span class="subject-icon">${subject?subject.icon:"✦"}</span><span><h3>${esc(n)}</h3><p>${counts[n]} प्रश्न उपलब्ध</p></span><span class="subject-arrow">›</span>
+    const displaySubjects=[...SUBJECTS,...Object.keys(counts).filter(n=>!SUBJECTS.some(subject=>subject.name===n)).map(n=>({name:n,icon:"✦"}))];
+    const cards = displaySubjects.map(subject => {
+      const n=subject.name, count=counts[n]||0;
+      return `<button class="subject-card ${count?"available":"unavailable"}" data-subject="${esc(n)}" ${count?"":"disabled"}>
+        <span class="subject-icon">${subject.icon}</span><span><h3>${esc(n)}</h3><p>${count?count+" प्रश्न उपलब्ध":"प्रश्न अभी उपलब्ध नहीं"}</p></span><span class="subject-arrow">${count?"›":"·"}</span>
       </button>`;
     }).join("");
     $("#subjectGrid").innerHTML = cards || '<div class="panel empty-state"><h3>प्रश्न बैंक तैयार हो रहा है</h3><p>प्रश्न उपलब्ध होते ही यहाँ दिखाई देंगे।</p></div>';
@@ -262,14 +263,14 @@
   }
   function renderResult(r,auto) {
     const slow=r.details.filter(d=>d.seconds>=45).sort((a,b)=>b.seconds-a.seconds);
-    const weak={};r.details.filter(d=>d.selected!==d.answer).forEach(d=>weak[d.chapter]=(weak[d.chapter]||0)+1);
+    const weak={};r.details.filter(d=>d.selected!==null&&d.selected!==d.answer).forEach(d=>weak[d.chapter]=(weak[d.chapter]||0)+1);
     const weakRows=Object.entries(weak).sort((a,b)=>b[1]-a[1]).slice(0,5);
     root.innerHTML=`<div class="page-head"><div><span class="eyebrow">अभ्यास पूरा हुआ</span><h1>आपका परिणाम</h1><p>${auto?"समय पूरा होने पर परीक्षा अपने-आप जमा हुई।":"अभ्यास सफलतापूर्वक जमा हुआ।"}</p></div><button class="btn btn-outline btn-small" data-view="home">होम पर जाएँ</button></div>
       <section class="result-hero"><div class="score-circle"><strong>${r.percent}%</strong><span>प्राप्त अंक</span></div><h2>${r.percent>=80?"बहुत अच्छा अभ्यास!":r.percent>=50?"अच्छी कोशिश, अभ्यास जारी रखें।":"गलत प्रश्न दोहराएँ और फिर प्रयास करें।"}</h2><p>${esc(r.modeLabel)} · ${formatTime(r.elapsed)} में पूरा</p></section>
       <div class="result-stats"><div class="result-stat"><strong class="answer-good">${r.correct}</strong><span>सही उत्तर</span></div><div class="result-stat"><strong class="answer-bad">${r.wrong}</strong><span>गलत उत्तर</span></div><div class="result-stat"><strong>${r.unanswered}</strong><span>बिना उत्तर</span></div><div class="result-stat"><strong>${formatTime(r.elapsed)}</strong><span>कुल समय</span></div></div>
       <section class="panel"><h3 style="margin:0;font-size:14px">अगली बार किस पर ध्यान दें?</h3><div class="review-list">${weakRows.length?weakRows.map(([c,n])=>`<div class="review-item"><strong>${esc(c)}</strong><p>${n} प्रश्नों में दोबारा अभ्यास की ज़रूरत है।</p></div>`).join(""):'<p class="muted">इस अभ्यास में सभी प्रश्न सही हैं। बहुत बढ़िया!</p>'}</div>
       <h3 style="font-size:14px;margin:19px 0 7px">धीमे हल किए गए प्रश्न (45 सेकंड या अधिक)</h3><div class="review-list">${slow.length?slow.slice(0,5).map(d=>`<div class="review-item"><strong>${esc(d.question)}</strong><p>${formatTime(d.seconds)} · ${esc(d.chapter)}</p></div>`).join(""):'<p class="muted">ऐसा कोई प्रश्न नहीं मिला।</p>'}</div>
-      <h3 style="font-size:14px;margin:19px 0 7px">उत्तर समीक्षा</h3><div class="review-list">${r.details.filter(d=>d.selected!==null&&d.selected!==d.answer).map((d,i)=>`<div class="review-item wrong-review"><strong>${i+1}. ${esc(d.question)}</strong><p>आपका उत्तर: <span class="${d.selected===d.answer?"answer-good":"answer-bad"}">${d.selected===null?"नहीं दिया":esc("ABCD"[d.selected]+". "+d.options[d.selected])}</span><br>सही उत्तर: <span class="answer-good">${esc("ABCD"[d.answer]+". "+d.options[d.answer])}</span>${d.explanation?"<br>व्याख्या: "+esc(d.explanation):""}</p></div>`).join("")}</div></section>`;
+      <h3 style="font-size:14px;margin:19px 0 7px">गलत हुए प्रश्न (${r.wrong})</h3><div class="review-list">${r.details.filter(d=>d.selected!==null&&d.selected!==d.answer).map((d,i)=>`<div class="review-item wrong-review"><strong>${i+1}. ${esc(d.question)}</strong><p>आपका उत्तर: <span class="${d.selected===d.answer?"answer-good":"answer-bad"}">${d.selected===null?"नहीं दिया":esc("ABCD"[d.selected]+". "+d.options[d.selected])}</span><br>सही उत्तर: <span class="answer-good">${esc("ABCD"[d.answer]+". "+d.options[d.answer])}</span>${d.explanation?"<br>व्याख्या: "+esc(d.explanation):""}</p></div>`).join("")||'<p class="muted">इस अभ्यास में कोई गलत उत्तर नहीं था।</p>'}</div></section>`;
   }
   function normalizeQuestion(raw,index) {
     if(!raw||typeof raw!=="object")throw new Error("प्रश्न "+(index+1)+" सही वस्तु नहीं है।");
