@@ -50,10 +50,11 @@
         "ऑक्सीजन",
         "हाइड्रोजन"
       ],
-      "correctIndex": "ऑक्सीजन प्रकाश संश्लेषण में जल के विघटन से निकलती है।",
-      "explanation": "easy",
+      "correctIndex": 2,
+      "explanation": "प्रकाश संश्लेषण में जल के प्रकाशीय विघटन से ऑक्सीजन निकलती है।",
       "sourceLabel": "मौलिक अभ्यास प्रश्न — UPMSP कक्षा 10, शैक्षणिक सत्र 2026–27 के जीव जगत इकाई पर आधारित",
-      "sourceType": "curated-practice"
+      "sourceType": "curated-practice",
+      "difficulty": "easy"
     },
     {
       "id": "curated-science-life-processes-004",
@@ -83,10 +84,11 @@
         "लार एमाइलेज",
         "लाइपेज"
       ],
-      "correctIndex": "लार एमाइलेज स्टार्च को छोटे शर्करा अणुओं में तोड़ने की प्रक्रिया शुरू करता है।",
-      "explanation": "medium",
+      "correctIndex": 2,
+      "explanation": "लार में उपस्थित एमाइलेज एंजाइम स्टार्च के पाचन की शुरुआत करता है।",
       "sourceLabel": "मौलिक अभ्यास प्रश्न — UPMSP कक्षा 10, शैक्षणिक सत्र 2026–27 के जीव जगत इकाई पर आधारित",
-      "sourceType": "curated-practice"
+      "sourceType": "curated-practice",
+      "difficulty": "medium"
     },
     {
       "id": "curated-science-life-processes-006",
@@ -150,10 +152,11 @@
         "लाइपेज",
         "माल्टेज"
       ],
-      "correctIndex": "पेप्सिन अम्लीय माध्यम में प्रोटीन को छोटे पेप्टाइड अंशों में तोड़ता है।",
-      "explanation": "medium",
+      "correctIndex": 0,
+      "explanation": "पेप्सिन आमाशय के अम्लीय माध्यम में प्रोटीन को छोटे पेप्टाइड अंशों में तोड़ता है।",
       "sourceLabel": "मौलिक अभ्यास प्रश्न — UPMSP कक्षा 10, शैक्षणिक सत्र 2026–27 के जीव जगत इकाई पर आधारित",
-      "sourceType": "curated-practice"
+      "sourceType": "curated-practice",
+      "difficulty": "medium"
     },
     {
       "id": "curated-science-life-processes-010",
@@ -166,10 +169,11 @@
         "निस्यंदन",
         "प्रकाश संश्लेषण"
       ],
-      "correctIndex": "भोजन नली की पेशियों का क्रमिक संकुचन और शिथिलन भोजन को आगे धकेलता है।",
-      "explanation": "medium",
+      "correctIndex": 1,
+      "explanation": "भोजन नली की पेशियों का क्रमिक संकुचन और शिथिलन भोजन को आगे बढ़ाता है; इसे क्रमाकुंचन कहते हैं।",
       "sourceLabel": "मौलिक अभ्यास प्रश्न — UPMSP कक्षा 10, शैक्षणिक सत्र 2026–27 के जीव जगत इकाई पर आधारित",
-      "sourceType": "curated-practice"
+      "sourceType": "curated-practice",
+      "difficulty": "medium"
     },
     {
       "id": "curated-science-life-processes-011",
@@ -182,10 +186,11 @@
         "राइबोसोम",
         "रिक्तिका"
       ],
-      "correctIndex": "माइटोकॉन्ड्रिया में ऑक्सीजन की उपस्थिति में भोजन का अधिक पूर्ण विघटन होकर ऊर्जा मिलती है।",
-      "explanation": "medium",
+      "correctIndex": 1,
+      "explanation": "वायवीय श्वसन में अधिकांश ATP माइटोकॉन्ड्रिया में होने वाली प्रक्रियाओं से बनती है।",
       "sourceLabel": "मौलिक अभ्यास प्रश्न — UPMSP कक्षा 10, शैक्षणिक सत्र 2026–27 के जीव जगत इकाई पर आधारित",
-      "sourceType": "curated-practice"
+      "sourceType": "curated-practice",
+      "difficulty": "medium"
     },
     {
       "id": "curated-science-life-processes-012",
