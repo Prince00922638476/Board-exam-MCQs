@@ -7,3 +7,15 @@
 @media(max-width:850px){.app-shell{padding:0 18px}.topbar{height:auto;min-height:70px;flex-wrap:wrap;padding:12px 0}.top-nav{order:3;width:100%;overflow-x:auto;justify-content:space-between}.nav-link{padding:8px 9px;white-space:nowrap}.hero{padding:27px;grid-template-columns:1fr .65fr}.quick-panel{grid-template-columns:1fr}.mode-chips{justify-content:flex-start}.quiz-layout{grid-template-columns:minmax(0,1fr) 190px}}
 @media(max-width:620px){.app-shell{padding:0 14px}.main-content{padding-top:18px}.hero{grid-template-columns:1fr;padding:23px 19px;gap:22px;border-radius:20px}.hero-card{justify-self:stretch;max-width:none;padding:17px}.hero-card>strong{font-size:31px;margin-top:7px}.hero h1{font-size:29px}.hero p{font-size:12px}.hero-actions .btn{flex:1}.section-heading{margin-top:27px;align-items:flex-start;flex-direction:column;gap:5px}.section-heading h2{font-size:19px}.subject-grid{grid-template-columns:1fr 1fr;gap:9px}.subject-card{padding:12px 10px;gap:9px;min-height:75px}.subject-icon{height:36px;width:36px;font-size:16px}.subject-card h3{font-size:11px}.subject-card p{font-size:9px}.subject-arrow{font-size:14px}.quick-panel{padding:18px 16px;margin-top:22px}.quick-panel h2{font-size:17px}.mode-chip{font-size:10px;padding:8px 10px}.site-footer{flex-direction:column;gap:5px;padding:20px 2px}.page-head{align-items:flex-start;flex-direction:column}.page-head h1{font-size:22px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.modal{padding:18px}.quiz-layout{grid-template-columns:1fr}.question-side{order:2}.question-side .panel{padding:14px}.question-grid{grid-template-columns:repeat(8,1fr)}.question-panel{min-height:0}.question-text{font-size:16px}.quiz-top{align-items:flex-start}.result-stats{grid-template-columns:repeat(2,1fr)}.data-summary{grid-template-columns:repeat(3,1fr)}.data-stat{padding:10px}.data-stat strong{font-size:18px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Question correctness, review, and mobile import helpers */
+.option.correct{border-color:var(--green);background:#effaf4}
+.option.wrong{border-color:var(--red);background:#fff1f2}
+.option:disabled{cursor:default;opacity:1}
+.option.correct .option-key{background:var(--green);color:#fff}
+.option.wrong .option-key{background:var(--red);color:#fff}
+.wrong-review{border-color:#f1c7cc;background:#fff9f9}
+.bank-search{width:100%;min-width:0;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff;color:var(--text);font:inherit}
+.bank-question{width:100%;text-align:left;cursor:pointer;background:#fff;color:inherit}
+.bank-question:hover{border-color:#b6cbff;background:#fafcff}
+.subject-card:disabled{opacity:.58;cursor:not-allowed}
