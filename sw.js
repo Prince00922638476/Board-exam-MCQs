@@ -1,9 +1,10 @@
-const CACHE_NAME = "boardmcq-v3";
+const CACHE_NAME = "boardmcq-v4";
 const CORE_FILES = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./question-import.js",
   "./manifest.webmanifest",
   "./icon.svg",
   "./question-format.json",
