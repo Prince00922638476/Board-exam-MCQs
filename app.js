@@ -286,9 +286,13 @@
   }
   function simpleHash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0).toString(16)}
   async function loadBuiltInQuestionBank() {
-    const markerKey = "built-in-pdf-bank-v2";
+    const markerKey = "built-in-pdf-bank-v3";
     const marker = await storeAction("settings","get",markerKey);
-    if (marker && bank.length >= Number(marker.questionCount)) return 0;
+    const manifestResponse = await fetch("./questions/index.json",{cache:"no-cache"});
+    if(!manifestResponse.ok) throw new Error("प्रश्न बैंक की सूची डाउनलोड नहीं हुई।");
+    const manifestHint = await manifestResponse.json();
+    const expectedTotal = Number(manifestHint.questionCount||0) + Number(manifestHint.supplementalCount||0);
+    if (marker && Number(marker.questionCount)>=expectedTotal && bank.length >= expectedTotal) return 0;
 
     const indexResponse = await fetch("./questions/index.json",{cache:"no-cache"});
     if (!indexResponse.ok) throw new Error("प्रश्न बैंक की सूची डाउनलोड नहीं हुई।");
