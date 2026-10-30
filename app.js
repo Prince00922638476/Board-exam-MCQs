@@ -50,6 +50,10 @@
       let req;
       if (mode === "getAll") req = os.getAll();
       else if (mode === "put") req = os.put(value);
+      else if (mode === "bulkPut") {
+        if (!Array.isArray(value)) { tx.abort(); reject(new Error("सही सूची नहीं मिली।")); return; }
+        for (const item of value) os.put(item);
+      }
       else if (mode === "clear") req = os.clear();
       else if (mode === "delete") req = os.delete(value);
       tx.oncomplete = () => resolve(req && mode === "getAll" ? req.result : true);
@@ -73,15 +77,13 @@
     $("#heroSubjectCount").textContent = Object.keys(counts).length+" विषय";
     $("#heroProgress").style.width = bank.length ? "100%" : "0%";
     $("#bankStatus").textContent = bank.length ? bank.length+" प्रश्न उपलब्ध" : "प्रश्न बैंक में अभी प्रश्न नहीं हैं";
-    const cards = SUBJECTS.map(s => {
-      const count = counts[s.name] || 0;
-      return `<button class="subject-card ${count?"available":""}" data-subject="${esc(s.name)}" ${count?"":"disabled"}>
-        <span class="subject-icon">${s.icon}</span><span><h3>${s.name}</h3><p>${count?count+" प्रश्न उपलब्ध":"प्रश्न जल्द जोड़े जाएँगे"}</p></span><span class="subject-arrow">›</span>
+    const cards = Object.keys(counts).sort((a,b)=>a.localeCompare(b,"hi")).map(n => {
+      const subject = SUBJECTS.find(s=>s.name===n);
+      return `<button class="subject-card available" data-subject="${esc(n)}">
+        <span class="subject-icon">${subject?subject.icon:"✦"}</span><span><h3>${esc(n)}</h3><p>${counts[n]} प्रश्न उपलब्ध</p></span><span class="subject-arrow">›</span>
       </button>`;
     }).join("");
-    const extra = Object.keys(counts).filter(n => !SUBJECTS.some(s=>s.name===n)).map(n =>
-      `<button class="subject-card available" data-subject="${esc(n)}"><span class="subject-icon">✦</span><span><h3>${esc(n)}</h3><p>${counts[n]} प्रश्न उपलब्ध</p></span><span class="subject-arrow">›</span></button>`).join("");
-    $("#subjectGrid").innerHTML = cards+extra;
+    $("#subjectGrid").innerHTML = cards || '<div class="panel empty-state"><h3>प्रश्न बैंक तैयार हो रहा है</h3><p>प्रश्न उपलब्ध होते ही यहाँ दिखाई देंगे।</p></div>';
   }
   function navActive() {
     $$(".nav-link").forEach(b => b.classList.toggle("active", b.dataset.view===view));
@@ -143,20 +145,31 @@
   }
   function openSetup(mode="mixed",subject="") {
     selectedMode=mode;
-    const subjects=[...new Set(bank.map(q=>q.subject))].sort();
-    const chapters=[...new Set(bank.filter(q=>!subject||q.subject===subject).map(q=>q.chapter))].sort();
+    const subjects=[...new Set(bank.map(q=>q.subject))].sort((a,b)=>a.localeCompare(b,"hi"));
+    const chapters=[...new Set(bank.filter(q=>!subject||q.subject===subject).map(q=>q.chapter))].sort((a,b)=>a.localeCompare(b,"hi"));
+    const defaultCount=mode==="board"?100:20;
+    const defaultTime=mode==="board"?10800:1800;
     modalRoot.innerHTML=`<div class="modal-backdrop" data-close-modal><section class="modal" role="dialog" aria-modal="true" aria-labelledby="setupTitle"><div class="modal-head"><h2 id="setupTitle">अभ्यास तैयार करें</h2><button class="icon-btn" data-action="close-modal" aria-label="बंद करें">×</button></div>
     <div class="form-grid"><div class="field full"><label for="modeSelect">अभ्यास का प्रकार</label><select id="modeSelect">${Object.entries(MODES).map(([k,v])=>`<option value="${k}" ${k===mode?"selected":""}>${v}</option>`).join("")}</select></div>
-    <div class="field"><label for="subjectSelect">विषय</label><select id="subjectSelect"><option value="">सभी विषय</option>${subjects.map(s=>`<option ${s===subject?"selected":""}>${esc(s)}</option>`).join("")}</select></div>
-    <div class="field"><label for="chapterSelect">अध्याय</label><select id="chapterSelect"><option value="">सभी अध्याय</option>${chapters.map(c=>`<option>${esc(c)}</option>`).join("")}</select></div>
-    <div class="field"><label for="countSelect">प्रश्नों की संख्या</label><select id="countSelect">${[10,20,25,50,100,0].map(n=>`<option value="${n}" ${n===20?"selected":""}>${n?n+" प्रश्न":"सभी प्रश्न"}</option>`).join("")}</select></div>
-    <div class="field"><label for="timeSelect">कुल समय</label><select id="timeSelect"><option value="900">15 मिनट</option><option value="1800" selected>30 मिनट</option><option value="2700">45 मिनट</option><option value="3600">60 मिनट</option><option value="5400">90 मिनट</option></select></div>
-    </div><p class="field-help" style="margin-top:12px">प्रश्नों का क्रम अभ्यास के समय बदल सकता है। कुल समय खत्म होने पर परीक्षा अपने-आप जमा हो जाएगी।</p>
+    <div class="field"><label for="subjectSelect">विषय</label><select id="subjectSelect"><option value="">सभी विषय</option>${subjects.map(s=>`<option value="${esc(s)}" ${s===subject?"selected":""}>${esc(s)}</option>`).join("")}</select></div>
+    <div class="field"><label for="chapterSelect">अध्याय</label><select id="chapterSelect"><option value="">सभी अध्याय</option>${chapters.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select></div>
+    <div class="field"><label for="countSelect">प्रश्नों की संख्या</label><select id="countSelect">${[10,20,25,50,100,0].map(n=>`<option value="${n}" ${n===defaultCount?"selected":""}>${n?n+" प्रश्न":"सभी प्रश्न"}</option>`).join("")}</select></div>
+    <div class="field"><label for="timeSelect">कुल समय</label><select id="timeSelect">${[[900,"15 मिनट"],[1800,"30 मिनट"],[2700,"45 मिनट"],[3600,"60 मिनट"],[5400,"90 मिनट"],[10800,"180 मिनट"]].map(([v,l])=>`<option value="${v}" ${v===defaultTime?"selected":""}>${l}</option>`).join("")}</select></div>
+    </div><p class="field-help" id="setupHelp" style="margin-top:12px">${mode==="chapter"?"अध्यायवार अभ्यास के लिए विषय और अध्याय चुनना आवश्यक है।":"प्रश्नों का क्रम अभ्यास के समय बदल सकता है। समय पूरा होने पर परीक्षा अपने-आप जमा होगी।"}</p>
     <div class="modal-actions"><button class="btn btn-secondary" data-action="close-modal">रद्द करें</button><button class="btn btn-primary" data-action="begin-quiz">अभ्यास शुरू करें →</button></div></section></div>`;
-    const subjectEl=$("#subjectSelect"), chapterEl=$("#chapterSelect");
-    subjectEl.addEventListener("change",()=> {
-      const ch=[...new Set(bank.filter(q=>!subjectEl.value||q.subject===subjectEl.value).map(q=>q.chapter))].sort();
-      chapterEl.innerHTML='<option value="">सभी अध्याय</option>'+ch.map(c=>`<option>${esc(c)}</option>`).join("");
+    const subjectEl=$("#subjectSelect"), chapterEl=$("#chapterSelect"), modeEl=$("#modeSelect");
+    const updateChapters=()=>{
+      const previous=chapterEl.value;
+      const ch=[...new Set(bank.filter(q=>!subjectEl.value||q.subject===subjectEl.value).map(q=>q.chapter))].sort((a,b)=>a.localeCompare(b,"hi"));
+      chapterEl.innerHTML='<option value="">सभी अध्याय</option>'+ch.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");
+      if(ch.includes(previous))chapterEl.value=previous;
+    };
+    subjectEl.addEventListener("change",updateChapters);
+    modeEl.addEventListener("change",()=>{
+      const board=modeEl.value==="board";
+      $("#countSelect").value=board?"100":"20";
+      $("#timeSelect").value=board?"10800":"1800";
+      $("#setupHelp").textContent=modeEl.value==="chapter"?"अध्यायवार अभ्यास के लिए विषय और अध्याय चुनना आवश्यक है।":"प्रश्नों का क्रम अभ्यास के समय बदल सकता है। समय पूरा होने पर परीक्षा अपने-आप जमा होगी।";
     });
   }
   function startQuiz(mode,subject,chapter,count,duration,overrideQuestions) {
@@ -164,7 +177,8 @@
     if (!candidates.length) { notify("इस चयन में अभी प्रश्न उपलब्ध नहीं हैं।"); return; }
     candidates=[...candidates].sort(()=>Math.random()-.5);
     const chosen=count?candidates.slice(0,count):candidates;
-    session={id:"attempt-"+Date.now(),mode,modeLabel:MODES[mode]||"अभ्यास",subjectLabel:subject||"सभी विषय",items:chosen,answers:{},seconds:{},review:[],cursor:0,totalSeconds:duration,remaining:duration,startedAt:Date.now(),questionStartedAt:Date.now(),elapsed:0,finished:false};
+    const startedAt=Date.now();
+    session={id:"attempt-"+startedAt,mode,modeLabel:MODES[mode]||"अभ्यास",subjectLabel:subject||"सभी विषय",items:chosen,answers:{},seconds:{},review:[],cursor:0,totalSeconds:duration,remaining:duration,deadlineAt:startedAt+duration*1000,startedAt,questionStartedAt:startedAt,elapsed:0,finished:false};
     modalRoot.innerHTML="";
     renderQuiz(); startClock();
   }
@@ -172,9 +186,8 @@
     clearInterval(tick);
     tick=setInterval(()=>{
       if(!session||session.finished)return;
-      session.remaining=Math.max(0,session.remaining-1);
-      session.elapsed++;
-      session.seconds[session.items[session.cursor].id]=(session.seconds[session.items[session.cursor].id]||0)+1;
+      session.remaining=Math.max(0,Math.ceil((session.deadlineAt-Date.now())/1000));
+      session.elapsed=Math.min(session.totalSeconds,Math.floor((Date.now()-session.startedAt)/1000));
       const t=$("#quizTimer");
       if(t){t.textContent=formatTime(session.remaining);t.classList.toggle("warning",session.remaining<=300);}
       if(session.remaining<=0) finishQuiz(true);
@@ -195,9 +208,11 @@
   }
   function moveQuestion(next) {
     if (!session) return;
-    session.questionStartedAt=Date.now();
+    const now=Date.now(),activeId=session.items[session.cursor].id;
+    session.seconds[activeId]=(session.seconds[activeId]||0)+Math.max(0,Math.round((now-session.questionStartedAt)/1000));
     if(next>=session.items.length){finishQuiz(false);return;}
     session.cursor=Math.max(0,Math.min(session.items.length-1,next));
+    session.questionStartedAt=now;
     renderQuiz();
   }
   async function finishQuiz(auto=false) {
@@ -206,13 +221,22 @@
       const unanswered=session.items.filter(q=>session.answers[q.id]===undefined).length;
       if(!confirm(`क्या आप अभ्यास जमा करना चाहते हैं?\nबिना उत्तर: ${unanswered}`))return;
     }
+    const finishedAt=Date.now(),activeId=session.items[session.cursor].id;
+    session.seconds[activeId]=(session.seconds[activeId]||0)+Math.max(0,Math.round((finishedAt-session.questionStartedAt)/1000));
+    session.elapsed=Math.min(session.totalSeconds,Math.floor((finishedAt-session.startedAt)/1000));
     session.finished=true;clearInterval(tick);
     const details=session.items.map(q=>({questionId:q.id,question:q.question,subject:q.subject,chapter:q.chapter,options:q.options,answer:q.answer,selected:session.answers[q.id]??null,explanation:q.explanation||"",seconds:session.seconds[q.id]||0,source:q.source||"",difficulty:q.difficulty||""}));
     const correct=details.filter(d=>d.selected===d.answer).length;
     const wrong=details.filter(d=>d.selected!==null&&d.selected!==d.answer).length;
     const unanswered=details.length-correct-wrong;
     const record={id:session.id,createdAt:Date.now(),mode:session.mode,modeLabel:session.modeLabel,subjectLabel:session.subjectLabel,total:details.length,correct,wrong,unanswered,percent:Math.round(correct/details.length*100),elapsed:session.elapsed,details};
-    await storeAction("results","put",record);await refreshData();
+    try {
+      await storeAction("results","put",record);
+      await refreshData();
+    } catch(err) {
+      console.error("परिणाम सहेजने में समस्या:",err);
+      notify("परिणाम दिखाया जा रहा है, लेकिन डिवाइस में सहेजा नहीं जा सका।");
+    }
     renderResult(record,auto);session=null;view="result";navActive();
   }
   function renderResult(r,auto) {
@@ -246,7 +270,7 @@
     if(!Array.isArray(raws)||!raws.length)throw new Error("फ़ाइल में questions नाम की प्रश्न सूची नहीं मिली।");
     const ids=new Set(), normalized=raws.map(normalizeQuestion);
     for(const q of normalized){if(ids.has(q.id))throw new Error("फ़ाइल में एक ही पहचान दो बार है: "+q.id);ids.add(q.id);}
-    for(const q of normalized)await storeAction("questions","put",q);
+    await storeAction("questions","bulkPut",normalized);
     await refreshData();notify(normalized.length+" प्रश्न सफलतापूर्वक जोड़े गए।");setView("home");
   }
   function downloadFile(name,content,type="application/json") {
@@ -258,8 +282,9 @@
   function openSavedFile(id,download=false){
     const f=documents.find(x=>x.id===id);if(!f){notify("फ़ाइल नहीं मिली।");return;}
     if(download){downloadFile(f.name,f.blob,f.type||"application/octet-stream");return;}
-    const url=URL.createObjectURL(f.blob),w=window.open(url,"_blank");if(w)w.opener=null;else downloadFile(f.name,f.blob,f.type||"application/octet-stream");
-    setTimeout(()=>URL.revokeObjectURL(url),60000);
+    const url=URL.createObjectURL(f.blob),a=document.createElement("a");
+    a.href=url;a.target="_blank";a.rel="noopener";a.click();
+    setTimeout(()=>URL.revokeObjectURL(url),5*60*1000);
   }
   function openImport() {
     modalRoot.innerHTML=`<div class="modal-backdrop" data-close-modal><section class="modal" role="dialog" aria-modal="true"><div class="modal-head"><h2>प्रश्न बैंक आयात करें</h2><button class="icon-btn" data-action="close-modal">×</button></div><div class="field"><label for="jsonFile">JSON फ़ाइल चुनें</label><input id="jsonFile" type="file" accept=".json,application/json"><span class="field-help">फ़ाइल में questions की सूची होनी चाहिए। हर प्रश्न में subject, chapter, question, चार options और answer आवश्यक हैं।</span></div><div class="notice">आयात से पहले सभी प्रश्नों की जाँच की जाएगी। गलत प्रारूप वाली फ़ाइल से प्रश्न नहीं जोड़े जाएँगे।</div><div id="importError" class="field-help" style="color:var(--red);margin-top:10px"></div><div class="modal-actions"><button class="btn btn-secondary" data-action="close-modal">रद्द करें</button><button class="btn btn-primary" data-action="confirm-import">आयात करें</button></div></section></div>`;
@@ -291,6 +316,8 @@
       case "begin-quiz":{
         const mode=$("#modeSelect").value,subject=$("#subjectSelect").value,chapter=$("#chapterSelect").value;
         const count=Number($("#countSelect").value),duration=Number($("#timeSelect").value);
+        if(mode==="chapter"&&(!subject||!chapter)){notify("अध्यायवार अभ्यास के लिए विषय और अध्याय चुनें।");break;}
+        if(mode==="subject"&&!subject){notify("विषयवार अभ्यास के लिए विषय चुनें।");break;}
         const qs=currentFilter(mode,subject,chapter);
         if(!qs.length){notify("इस चयन के लिए प्रश्न उपलब्ध नहीं हैं।");break;}
         startQuiz(mode,subject,chapter,count,duration);break;
