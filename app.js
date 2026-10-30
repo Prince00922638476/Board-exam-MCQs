@@ -105,7 +105,7 @@
     renderHome();
   }
   function renderWrong() {
-    const wrong = new Set(history.flatMap(h => h.details.filter(d=>d.selected!==null && d.selected!==d.answer).map(d=>d.questionId)));
+    const wrong = new Set(history.flatMap(h => (h.details||[]).filter(d=>d.selected!==null && d.selected!==d.answer).map(d=>d.questionId)));
     const qs = bank.filter(q=>wrong.has(q.id));
     root.innerHTML = `<div class="page-head"><div><span class="eyebrow">दोबारा अभ्यास</span><h1>गलत प्रश्न</h1><p>पिछले अभ्यासों में गलत हुए प्रश्न यहाँ मिलेंगे।</p></div><button class="btn btn-primary btn-small" data-action="start-wrong" ${qs.length?"":"disabled"}>अभ्यास शुरू करें →</button></div>
       <div class="panel ${qs.length?"":"empty-state"}">${qs.length?`<h3 style="margin:0 0 5px">${qs.length} प्रश्न दोहराने के लिए तैयार</h3><p class="muted">यह सूची आपके इसी डिवाइस पर सहेजे गए परिणामों से बनती है।</p>`:`<div class="empty-icon">↻</div><h3>अभी दोहराने के लिए प्रश्न नहीं हैं</h3><p>अभ्यास पूरा करने के बाद गलत उत्तर वाले प्रश्न अपने-आप यहाँ दिखाई देंगे।</p><button class="btn btn-secondary btn-small" data-view="home">होम पर जाएँ</button>`}</div>`;
@@ -121,8 +121,9 @@
     <div class="data-summary"><div class="data-stat"><strong>${bank.length}</strong><span>कुल प्रश्न</span></div><div class="data-stat"><strong>${Object.keys(counts).length}</strong><span>विषय</span></div><div class="data-stat"><strong>${documents.length}</strong><span>फ़ाइलें</span></div></div>
     <section class="panel"><h3 style="font-size:14px;margin:0 0 5px">प्रश्न बैंक</h3><p class="muted">JSON प्रश्न जोड़ें या अपने प्रश्न और परिणाम डाउनलोड करें।</p>
     <div class="data-actions"><button class="btn btn-primary btn-small" data-action="import">JSON प्रश्न जोड़ें</button><button class="btn btn-outline btn-small" data-action="export-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक निर्यात करें</button><button class="btn btn-outline btn-small" data-action="export-results" ${history.length?"":"disabled"}>परिणाम निर्यात करें</button><button class="btn btn-danger btn-small" data-action="clear-bank" ${bank.length?"":"disabled"}>प्रश्न बैंक मिटाएँ</button></div>
-    <div class="notice">${bank.length?bank.length+" प्रश्न इसी ब्राउज़र में सुरक्षित हैं।":"प्रश्न बैंक अभी खाली है।"} ${history.length?history.length+" परिणाम सुरक्षित हैं।":""}</div>
-    <div class="notice">फ़ाइलें अभी इसी डिवाइस में सेव होती हैं। दूसरे लोगों को दिखाने के लिए साझा ऑनलाइन संग्रह जोड़ना बाकी है।</div></section>
+    <div class="notice">${bank.length?bank.length.toLocaleString("hi-IN")+" प्रश्न इस ब्राउज़र में उपलब्ध हैं।":"प्रश्न बैंक अभी खाली है।"} ${history.length?history.length+" परिणाम सुरक्षित हैं।":""}</div>
+    <div class="notice">मूल 1,488 प्रश्न छह PDF से तैयार अभ्यास सामग्री हैं, सत्यापित आधिकारिक PYQ नहीं। यह मूल प्रश्न बैंक वेबसाइट से सभी आगंतुकों को मिलता है।</div>
+    <div class="notice">आपके अपने आयात किए गए प्रश्न, परिणाम और अपलोड की गई फ़ाइलें अभी इसी डिवाइस/ब्राउज़र में सेव होती हैं। दूसरे लोगों के साथ साझा करने के लिए सुरक्षित ऑनलाइन लॉगिन और संग्रहण अभी जोड़ा जाना बाकी है।</div></section>
     <section class="panel" style="margin-top:14px"><h3 style="font-size:14px;margin:0 0 5px">अपनी फ़ाइलें अपलोड करें</h3><p class="muted">PDF, चित्र और अन्य फ़ाइलें चुनें। अपलोड के बाद वे नीचे सूची में दिखेंगी।</p><input id="fileUploadInput" type="file" multiple hidden><div class="data-actions"><button class="btn btn-primary btn-small" data-action="upload-files">फ़ाइलें अपलोड करें</button></div><div class="review-list">${rows||'<p class="muted">अभी कोई फ़ाइल अपलोड नहीं हुई है।</p>'}</div></section>
     <div class="data-actions"><a class="btn btn-outline btn-small" href="./question-format.json" download>JSON नमूना प्रारूप</a><a class="btn btn-outline btn-small" href="./README.md" target="_blank" rel="noopener">निर्देश देखें</a></div>`;
     $("#fileUploadInput").addEventListener("change",async e=>{const fs=[...e.target.files];try{for(const f of fs){const id="file-"+(crypto.randomUUID?crypto.randomUUID():Date.now()+"-"+Math.random());await storeAction("documents","put",{id,name:f.name,type:f.type,size:f.size,addedAt:Date.now(),blob:f});}await refreshData();renderData();notify(fs.length+" फ़ाइलें सेव हो गईं।");}catch(err){notify("फ़ाइल सेव नहीं हुई: "+(err.message||"स्टोरेज की जगह जाँचें।"));}});
@@ -381,7 +382,7 @@
       case "clear-bank":
         if(confirm("क्या आप इस डिवाइस से पूरा प्रश्न बैंक मिटाना चाहते हैं? परिणाम सुरक्षित रहेंगे।")){await storeAction("questions","clear");await refreshData();renderData();notify("प्रश्न बैंक मिटा दिया गया।");}break;
       case "start-wrong":{
-        const wrongIds=new Set(history.flatMap(h=>h.details.filter(d=>d.selected!==null&&d.selected!==d.answer).map(d=>d.questionId)));
+        const wrongIds=new Set(history.flatMap(h=>(h.details||[]).filter(d=>d.selected!==null&&d.selected!==d.answer).map(d=>d.questionId)));
         const qs=bank.filter(q=>wrongIds.has(q.id));if(qs.length)startQuiz("wrong","","",0,1800,qs);else notify("अभी गलत प्रश्न उपलब्ध नहीं हैं।");break;
       }
       case "prev":moveQuestion(session.cursor-1);break;
