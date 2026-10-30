@@ -303,6 +303,7 @@
   });
   modalRoot.addEventListener("click",e=>{if(e.target.matches("[data-close-modal]"))modalRoot.innerHTML="";});
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modalRoot.innerHTML)modalRoot.innerHTML="";});
+  document.querySelector(".top-nav").addEventListener("click",e=>{const b=e.target.closest("[data-view]");if(b)setView(b.dataset.view);});
   window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;$("#installBtn").classList.remove("hidden");});
   $("#installBtn").addEventListener("click",async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$("#installBtn").classList.add("hidden");});
   async function init(){
